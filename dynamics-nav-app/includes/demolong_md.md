@@ -1,1 +1,1 @@
-CRONUS (Schweiz) AG -Demonstrationsdatenbank
+<span data-ttu-id="37f2b-101">CRONUS (Schweiz) AG</span><span class="sxs-lookup"><span data-stu-id="37f2b-101">CRONUS International Ltd.</span></span> <span data-ttu-id="37f2b-102">-Demonstrationsdatenbank</span><span class="sxs-lookup"><span data-stu-id="37f2b-102">demonstration database</span></span>

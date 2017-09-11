@@ -16,23 +16,23 @@ ms.lasthandoff: 06/26/2017
 
 ---
 
-#<a name="set-up-core-financial-processes"></a>Zentrale Finanzprozesse einrichten
-Dynamics NAV umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen.
-Sie können vom Startbildschirm auf eine unterstützte Einrichtung zugreifen, die Sie beispielsweise dabei unterstützt, Salestax abhängig von Ihrem Standort einzurichten. Andere Aspekte des Finanz-Einrichtungs-Managements müssen Sie selbst einrichten, zum Beispiel abhängig davon, ob Sie Dimensionen verwenden wollen.  
+#<a name="set-up-core-financial-processes"></a><span data-ttu-id="b6b0c-102">Zentrale Finanzprozesse einrichten</span><span class="sxs-lookup"><span data-stu-id="b6b0c-102">Set Up Core Financial Processes</span></span>
+<span data-ttu-id="b6b0c-103">Dynamics NAV umfasst eine Standardkonfiguration der meisten Finanzvorgänge, aber Sie können die Konfiguration ändern, um Sie den Anforderungen Ihres Unternehmens anzupassen.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-103">Dynamics NAV includes a standard configuration of most financial processes, but you can change the configuration to suit your business.</span></span>
+<span data-ttu-id="b6b0c-104">Sie können vom Startbildschirm auf eine unterstützte Einrichtung zugreifen, die Sie beispielsweise dabei unterstützt, Salestax abhängig von Ihrem Standort einzurichten.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-104">From Home, you can access an assisted setup guide that helps you set up sales tax depending on your location, for example.</span></span> <span data-ttu-id="b6b0c-105">Andere Aspekte des Finanz-Einrichtungs-Managements müssen Sie selbst einrichten, zum Beispiel abhängig davon, ob Sie Dimensionen verwenden wollen.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-105">Other aspects of finance-setup management you must set up yourself, depending on whether you want to use dimensions, for example.</span></span>  
 
-In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.
+<span data-ttu-id="b6b0c-106">In der folgenden Tabelle wird eine Reihe von Aufgaben mit Verknüpfungen zu den beschriebenen Themen erläutert.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-106">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
 
-| Aktion                                                                  | Informationen                      |
+| <span data-ttu-id="b6b0c-107">Aktion</span><span class="sxs-lookup"><span data-stu-id="b6b0c-107">To</span></span>                                                                  | <span data-ttu-id="b6b0c-108">Informationen</span><span class="sxs-lookup"><span data-stu-id="b6b0c-108">See</span></span>                      |
 |---------------------------------------------------------------------|--------------------------|
-|Wählen Sie aus, wie Sie Zahlungen Ihrer Kreditoren verarbeiten möchten.|[Zahlungsformen](finance-setup-payment-methods.md)|
-|Einrichten von Finanzzeiträumen|[So geht's: Ein neues Geschäftsjahr eröffnen](finance-setup-how-open-new-fiscal-year.md)|
-|Richten Sie zusätzliche Währungen ein, wenn Sie internationalen Handel betreiben.|[Einrichten von Währungen](finance-setup-setup-currencies.md)|
-|Fügen Sie Dimensionen für umfangreichere Business Intelligence hinzu.|[Einrichtung von Dimensionen](finance-setup-setup-dimensions.md)|
-|Fügen Sie dem bestehenden Kontenplan neue Konten hinzu.|[Einrichten eines Kontenplans](finance-setup-setup-chart-accounts.md)|
+|<span data-ttu-id="b6b0c-109">Wählen Sie aus, wie Sie Zahlungen Ihrer Kreditoren verarbeiten möchten.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-109">Choose how you want to handle payments of your vendors.</span></span>|[<span data-ttu-id="b6b0c-110">Zahlungsformen</span><span class="sxs-lookup"><span data-stu-id="b6b0c-110">Payment Methods</span></span>](finance-setup-payment-methods.md)|
+|<span data-ttu-id="b6b0c-111">Einrichten von Finanzzeiträumen</span><span class="sxs-lookup"><span data-stu-id="b6b0c-111">Set up fiscal periods.</span></span>|[<span data-ttu-id="b6b0c-112">So geht's: Ein neues Geschäftsjahr eröffnen</span><span class="sxs-lookup"><span data-stu-id="b6b0c-112">How to: Open a New Fiscal Year</span></span>](finance-setup-how-open-new-fiscal-year.md)|
+|<span data-ttu-id="b6b0c-113">Richten Sie zusätzliche Währungen ein, wenn Sie internationalen Handel betreiben.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-113">Set up additional currencies if you have international trade.</span></span>|[<span data-ttu-id="b6b0c-114">Einrichten von Währungen</span><span class="sxs-lookup"><span data-stu-id="b6b0c-114">Set Up Currencies</span></span>](finance-setup-setup-currencies.md)|
+|<span data-ttu-id="b6b0c-115">Fügen Sie Dimensionen für umfangreichere Business Intelligence hinzu.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-115">Add dimensions for richer business intelligence.</span></span>|[<span data-ttu-id="b6b0c-116">Einrichtung von Dimensionen</span><span class="sxs-lookup"><span data-stu-id="b6b0c-116">Set Up Dimensions</span></span>](finance-setup-setup-dimensions.md)|
+|<span data-ttu-id="b6b0c-117">Fügen Sie dem bestehenden Kontenplan neue Konten hinzu.</span><span class="sxs-lookup"><span data-stu-id="b6b0c-117">Add new accounts to the existing chart of accounts.</span></span>|[<span data-ttu-id="b6b0c-118">Einrichten eines Kontenplans</span><span class="sxs-lookup"><span data-stu-id="b6b0c-118">Set Up the Chart of Accounts</span></span>](finance-setup-setup-chart-accounts.md)|
 
 
 
-##<a name="see-also"></a>Siehe auch
-[Verwalten von Bankkonten](bank-manage-bank-accounts.md)    
-[Dimensionen](finance-setup-dimensions.md)  
+##<a name="see-also"></a><span data-ttu-id="b6b0c-119">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="b6b0c-119">See Also</span></span>
+<span data-ttu-id="b6b0c-120">[Verwalten von Bankkonten](bank-manage-bank-accounts.md)  </span><span class="sxs-lookup"><span data-stu-id="b6b0c-120">[Manage Bank Accounts](bank-manage-bank-accounts.md)  </span></span>  
+[<span data-ttu-id="b6b0c-121">Dimensionen</span><span class="sxs-lookup"><span data-stu-id="b6b0c-121">Dimensions</span></span>](finance-setup-dimensions.md)  
 

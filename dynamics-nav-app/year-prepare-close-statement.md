@@ -9,29 +9,29 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2017
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: cd74b1c23f1f406e1741472397cc1fe72d3b5d10
+ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
+ms.openlocfilehash: 96f5cd1dd34803b10402fb547793ff6e8ad174c0
 ms.contentlocale: de-ch
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 07/19/2017
 
 ---
-# <a name="prepare-closing-statements"></a>Vorbereiten von Abschlussrechnungen
-Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.
+# <a name="prepare-closing-statements"></a><span data-ttu-id="55541-102">Vorbereiten von Abschlussrechnungen</span><span class="sxs-lookup"><span data-stu-id="55541-102">Prepare Closing Statements</span></span>
+<span data-ttu-id="55541-103">Ihnen stehen eine Reihe von Standardberichten zur Verfügung, mit denen die benötigten Informationen zum Vorbereiten der Abschlussabrechnungen des Mandanten gesammelt werden können.</span><span class="sxs-lookup"><span data-stu-id="55541-103">There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.</span></span>
 
-Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten sowie Links zu den entsprechenden Themen, in denen diese Berichte erläutert werden.
+<span data-ttu-id="55541-104">Die folgende Tabelle enthält Beschreibungen zu einigen hilfreichen Berichten sowie Links zu den entsprechenden Themen, in denen diese Berichte erläutert werden.</span><span class="sxs-lookup"><span data-stu-id="55541-104">The following table describes a number of reports that may be useful in this process, with links to the topics that describe them.</span></span>
 
-|Aktion     |Siehe diesen Bericht.                  |
+|<span data-ttu-id="55541-105">Aktion</span><span class="sxs-lookup"><span data-stu-id="55541-105">To</span></span>     |<span data-ttu-id="55541-106">Siehe diesen Bericht.</span><span class="sxs-lookup"><span data-stu-id="55541-106">See this report</span></span>                  |
 |-------|---------------------------------|
-|Drucken eines Bilanzberichts mit Salden und Bewegungen für Fibukonten|Bilanz|
-|Verschaffen eines Überblicks über Debitoren mit Berechnung des Alters von Aussenständen auf der Grundlage des Fälligkeits-, Buchungs- oder Belegdatums|Debitor - Saldenrückblick|
-|Verschaffen eines Überblicks über Kreditoren mit Berechnung des Alters von zu zahlenden Beträgen auf der Grundlage des Fälligkeits-, Buchungs- oder Belegdatums|Kreditor - Saldenrückblick|
-|Vergleichen der Bilanz mit einem Budget|Bilanz/Budget|
-|Drucken eines Bilanzberichts mit Salden und Bewegungen für Fibukonten – berechnet für eine Serie von Perioden|Bilanz nach Periode|
-|Drucken eines Kontenschemas zum Analysieren der Werte auf Fibukonten oder zum Vergleichen tatsächlicher Fibuposten mit Finanzbudgetposten|Kontenschema|
-|Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Fibuposten ausgeglichen sind|Kunde abstimmen und Verkäufer, Zugriff|
+|<span data-ttu-id="55541-107">Drucken eines Bilanzberichts mit Salden und Bewegungen für Fibukonten</span><span class="sxs-lookup"><span data-stu-id="55541-107">Print a trial balance report with balances and net changes for general ledger accounts.</span></span>|<span data-ttu-id="55541-108">Bilanz</span><span class="sxs-lookup"><span data-stu-id="55541-108">Trial Balance</span></span>|
+|<span data-ttu-id="55541-109">Verschaffen eines Überblicks über Debitoren mit Berechnung des Alters von Aussenständen auf der Grundlage des Fälligkeits-, Buchungs- oder Belegdatums</span><span class="sxs-lookup"><span data-stu-id="55541-109">Get an overview of accounts receivable, with the age of amounts receivable calculated from the due date, posting date, or document date.</span></span>|<span data-ttu-id="55541-110">Debitor - Saldenrückblick</span><span class="sxs-lookup"><span data-stu-id="55541-110">Aged Accounts Receivable</span></span>|
+|<span data-ttu-id="55541-111">Verschaffen eines Überblicks über Kreditoren mit Berechnung des Alters von zu zahlenden Beträgen auf der Grundlage des Fälligkeits-, Buchungs- oder Belegdatums</span><span class="sxs-lookup"><span data-stu-id="55541-111">Get an overview of accounts payable, with the age of amounts payable calculated from the due date, posting date or document date.</span></span>|<span data-ttu-id="55541-112">Kreditor - Saldenrückblick</span><span class="sxs-lookup"><span data-stu-id="55541-112">Aged Accounts Payable</span></span>|
+|<span data-ttu-id="55541-113">Vergleichen der Bilanz mit einem Budget</span><span class="sxs-lookup"><span data-stu-id="55541-113">Compare the trial balance with a budget.</span></span>|<span data-ttu-id="55541-114">Bilanz/Budget</span><span class="sxs-lookup"><span data-stu-id="55541-114">Trial Balance/Budget</span></span>|
+|<span data-ttu-id="55541-115">Drucken eines Bilanzberichts mit Salden und Bewegungen für Fibukonten – berechnet für eine Serie von Perioden</span><span class="sxs-lookup"><span data-stu-id="55541-115">Print a trial balance report with balances and net changes for general ledger accounts calculated for a series of periods.</span></span>|<span data-ttu-id="55541-116">Bilanz nach Periode</span><span class="sxs-lookup"><span data-stu-id="55541-116">Trial Balance by Period</span></span>|
+|<span data-ttu-id="55541-117">Drucken eines Kontenschemas zum Analysieren der Werte auf Fibukonten oder zum Vergleichen tatsächlicher Fibuposten mit Finanzbudgetposten</span><span class="sxs-lookup"><span data-stu-id="55541-117">Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries.</span></span>|<span data-ttu-id="55541-118">Kontenschema</span><span class="sxs-lookup"><span data-stu-id="55541-118">Account Schedule</span></span>|
+|<span data-ttu-id="55541-119">Überprüfen, ob Debitoren- und Kreditorenposten mit den entsprechenden Fibuposten ausgeglichen sind</span><span class="sxs-lookup"><span data-stu-id="55541-119">Check whether customer and vendor ledger entries balance with corresponding general ledger entries.</span></span>|<span data-ttu-id="55541-120">Kunde abstimmen</span><span class="sxs-lookup"><span data-stu-id="55541-120">Reconcile Cust.</span></span> <span data-ttu-id="55541-121">und Verkäufer,</span><span class="sxs-lookup"><span data-stu-id="55541-121">and Vend.</span></span> <span data-ttu-id="55541-122">Zugriff</span><span class="sxs-lookup"><span data-stu-id="55541-122">Accs</span></span>|
 
-Um einen Bericht, in der oberen rechten Ecke anzuzeigen, wählen Sie das Symbol **Suche für Seite oder Bericht** und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.
+<span data-ttu-id="55541-123">Um einen Bericht, in der oberen rechten Ecke anzuzeigen, wählen Sie das Symbol **Suche für Seite oder Bericht** und geben Sie den Namen wie er in der Tabelle erscheint ein, und wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="55541-123">To see a report, in the top right corner, choose the **Search for Page or Report** icon, type the name as it appears in the table, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Siehe auch
-[Schließen von Abschlussjahren und -perioden](year-close-years-periods.md)
+## <a name="see-also"></a><span data-ttu-id="55541-124">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="55541-124">See Also</span></span>
+[<span data-ttu-id="55541-125">Schließen von Abschlussjahren und -perioden</span><span class="sxs-lookup"><span data-stu-id="55541-125">Close Years and Periods</span></span>](year-close-years-periods.md)
 

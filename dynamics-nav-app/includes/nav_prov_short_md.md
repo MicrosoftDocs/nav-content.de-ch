@@ -1,1 +1,1 @@
-Bereitstellungstools
+<span data-ttu-id="c351c-101">Bereitstellungstools</span><span class="sxs-lookup"><span data-stu-id="c351c-101">provisioning tools</span></span>
