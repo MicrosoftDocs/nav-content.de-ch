@@ -8,11 +8,11 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 51adfb3588099c496f0946ff71da5c6fe518f070
-ms.openlocfilehash: 59815db9c7b435ff585e1174b570029a360dea6e
+ms.translationtype: HT
+ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
+ms.openlocfilehash: 34eec596392e9316e807d3c073c3b8e59dbc12e9
 ms.contentlocale: de-ch
-ms.lasthandoff: 06/26/2017
+ms.lasthandoff: 10/16/2017
 
 ---
 
@@ -43,7 +43,7 @@ Wenn ein Fehler in der Dimensionseinrichtung passiert, während Sie die Lagerkos
 
 Wenn Sie eine Liste der Fehler anzeigen möchten, bevor Sie den Batchauftrag ausführen, führen Sie den Bericht **Lagereinstandspreise buchen - Test** aus. In dem Testbericht werden alle gefundenen Fehler aufgelistet, die während der Testbuchung aufgetreten sind. Sie können die Fehler dann beheben und die Stapelverarbeitung zum Buchen der Lagerregulierung ausführen, ohne dass irgendwelche Posten übersprungen werden.
 
-Wenn Sie sich nur einen Überblick verschaffen möchten, welche Werte im Fibuposten gebucht werden können, das Buchen selbst aber nicht vornehmen möchten, können Sie die Stapelverarbeitung Lagerregulierung buchen ausführen, ohne dass die Werte tatsächlich im Fibuposten gebucht werden. Dazu müssen Sie auf der Anforderungsseite das Häkchen im Feld Buchen entfernen. In diesem Fall wird, wenn Sie der Batchauftrag ausführen, nur der Bericht erzeugt, der die Werte enthält, die im Fibuposten bereit stehen, aber nicht gebucht sind.
+Wenn Sie sich nur einen Überblick verschaffen möchten, welche Werte in der Finanzbuchhaltung gebucht werden können, das Buchen selbst aber nicht vornehmen möchten, können Sie die Stapelverarbeitung Lagerregulierung buchen ausführen, ohne dass die Werte tatsächlich in der Finanzbuchhaltung gebucht werden. Dazu müssen Sie auf der Anforderungsseite das Häkchen im Feld Buchen entfernen. In diesem Fall wird, wenn Sie der Batchauftrag ausführen, nur der Bericht erzeugt, der die Werte enthält, die im Fibuposten bereit stehen, aber nicht gebucht sind.
 
 ## <a name="see-also"></a>Siehe auch
 [Verwalten des Lagerbestands](inventory-manage-inventory.md)    

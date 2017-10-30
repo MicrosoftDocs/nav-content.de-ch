@@ -1,1 +1,1 @@
-CRONUS (Schweiz) AG -Demonstrationsdatenbank
+Demodatenbank "CRONUS AG"
