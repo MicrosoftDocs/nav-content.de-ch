@@ -1,32 +1,38 @@
 ---
-title: 'Vorgehensweise: Buchen des Jahresabschlusspostens'
+title: "Buchen und überprüfen des Jahresabschlusspostens"
+description: "Beschreibt, wie Sie das Erf.-Journal öffnen, dass Sie in der Stapelverarbeitung \"Jahresabschluss\" definiert haben und dann den Jahresabschlusseintrag überprüfen und buchen."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: fe32ee973c90ba857852ae092acf03db09e648ee
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.date: 03/29/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: eeffd585b18c2b839db7be3f89d19497080b10ef
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="how-to-post-year-end-closing-entry"></a><span data-ttu-id="070e5-102">Vorgehensweise: Buchen des Jahresabschlusspostens</span><span class="sxs-lookup"><span data-stu-id="070e5-102">How to: Post Year-End Closing Entry</span></span>
-<span data-ttu-id="070e5-103">Als Teil des Abschlusses der Bühcer für ein Geschäftsjahr müssen Sie die Erfolgsrechnung-Kontennullstellung durchführen und das Ergebnis auf ein Bilanzkonto übertragen lassen und die die Erfolgsrechnung-Konten abschliessen.</span><span class="sxs-lookup"><span data-stu-id="070e5-103">As part of closing the books for a fiscal year, you will run the Close Income Statement batch job to transfer the year's result to an account in the balance sheet and close the income statement accounts.</span></span> <span data-ttu-id="070e5-104">Nachdem Sie die Stapelverarbeitung "Erfolgsrechnung-Konten Nullstellung" ausgeführt haben, um den bzw. die Ultimoposten für den Jahresabschluss zu generieren, müssen Sie das in der Stapelverarbeitung angegebene Erfassungsjournal öffnen und die Posten überprüfen und buchen.</span><span class="sxs-lookup"><span data-stu-id="070e5-104">After you run the Close Income Statement batch job, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
+# <a name="how-to-post-the-year-end-closing-entry"></a><span data-ttu-id="0675e-103">Vorgehensweise: Buchen des Jahresabschlusspostens</span><span class="sxs-lookup"><span data-stu-id="0675e-103">How to: Post the Year-End Closing Entry</span></span>
+<span data-ttu-id="0675e-104">Nachdem Sie die Stapelverarbeitung **GuV-Konten Nullstellung** ausgeführt haben, um den bzw. die Ultimoposten für den Jahresabschluss zu generieren, müssen Sie das in der Stapelverarbeitung angegebene Buchungsblatt öffnen und die Posten überprüfen und buchen.</span><span class="sxs-lookup"><span data-stu-id="0675e-104">After you use the **Close Income Statement** batch job to generate the year-end closing entry or entries, you must open the journal you specified in the batch job, and then review and post the entries.</span></span>
 
-## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="070e5-105">So buchen Sie den Jahresabschlussposten</span><span class="sxs-lookup"><span data-stu-id="070e5-105">To post the year end closing entry</span></span>
-1. <span data-ttu-id="070e5-106">Wählen Sie in der rechten oberen Ecke das Symbol **Nach Seite oder Bericht suchen** und geben **Fibu Erf.-Journal** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="070e5-106">In the top right corner, choose the **Search for Page or Report** icon, enter **General Journal**, and then choose the related link.</span></span>
-2. <span data-ttu-id="070e5-107">Wählen Sie im Fenster **Fibu Erf.-Journal** im Feld **Erfassungsjournalname** das Erfassungsjournal mit den Abschlussposten aus.</span><span class="sxs-lookup"><span data-stu-id="070e5-107">In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
-3. <span data-ttu-id="070e5-108">Überprüfen Sie die Posten.</span><span class="sxs-lookup"><span data-stu-id="070e5-108">Review the entries.</span></span>
-4. <span data-ttu-id="070e5-109">Wählen Sie auf der Registerkarte **Start** die Option Buchen aus, um das Erfassungsjournal zu buchen.</span><span class="sxs-lookup"><span data-stu-id="070e5-109">To post the journal, choose the **Post** action.</span></span>
+## <a name="to-post-the-year-end-closing-entry"></a><span data-ttu-id="0675e-105">So buchen Sie den Jahresabschlussposten</span><span class="sxs-lookup"><span data-stu-id="0675e-105">To post the year end closing entry</span></span>
+1. <span data-ttu-id="0675e-106">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite ober Bericht suchen") und geben **Fibu Buch.-Blatt** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="0675e-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="0675e-107">Wählen Sie im Fenster **Fibu Erf.-Journal** im Feld **Erfassungsjournalname** das Erfassungsjournal mit den Abschlussposten aus.</span><span class="sxs-lookup"><span data-stu-id="0675e-107">In the **General Journal** window, in the **Batch Name** field, select the batch that contains the closing entries.</span></span>
+3. <span data-ttu-id="0675e-108">Überprüfen Sie die Posten.</span><span class="sxs-lookup"><span data-stu-id="0675e-108">Review the entries.</span></span>
+4. <span data-ttu-id="0675e-109">Wählen Sie auf der Registerkarte **Start** die Option Buchen aus, um das Erfassungsjournal zu buchen.</span><span class="sxs-lookup"><span data-stu-id="0675e-109">To post the journal, choose the **Post** action.</span></span>
 
-<span data-ttu-id="070e5-110">**Hinweis**: Wenn ein Fehler erkannt wird, wird eine Fehlermeldung angezeigt.</span><span class="sxs-lookup"><span data-stu-id="070e5-110">**Note**: If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="070e5-111">Wurde die Buchung ordnungsgemäss durchgeführt, werden die gebuchten Posten aus dem Erfassungsjournal entfernt.</span><span class="sxs-lookup"><span data-stu-id="070e5-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="070e5-112">Nachdem die Buchung abgeschlossen ist, wird ein Posten auf jedes Erfolgsrechnungskonto gebucht, sodass der Saldo des Kontos Null ist und das Jahresergebnis in die Bilanz übertragen wird.</span><span class="sxs-lookup"><span data-stu-id="070e5-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
+> [!NOTE]  
+>   <span data-ttu-id="0675e-110">Wenn ein Fehler erkannt wird, wird eine Fehlermeldung angezeigt.</span><span class="sxs-lookup"><span data-stu-id="0675e-110">If an error is detected, an error message is displayed.</span></span> <span data-ttu-id="0675e-111">Wurde die Buchung ordnungsgemäss durchgeführt, werden die gebuchten Posten aus dem Erfassungsjournal entfernt.</span><span class="sxs-lookup"><span data-stu-id="0675e-111">If the posting is successful, the posted entries are removed from the journal.</span></span> <span data-ttu-id="0675e-112">Nachdem die Buchung abgeschlossen ist, wird ein Posten auf jedes Erfolgsrechnungskonto gebucht, sodass der Saldo des Kontos Null ist und das Jahresergebnis in die Bilanz übertragen wird.</span><span class="sxs-lookup"><span data-stu-id="0675e-112">After posting is complete, an entry is posted to each income statement account so that its balance becomes zero and the year's result is transferred to the balance sheet.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="070e5-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="070e5-113">See Also</span></span>
-[<span data-ttu-id="070e5-114">Buchabschluss</span><span class="sxs-lookup"><span data-stu-id="070e5-114">Close Books</span></span>](year-close-books.md)  
-[<span data-ttu-id="070e5-115">GuV-Konten Nullstellung</span><span class="sxs-lookup"><span data-stu-id="070e5-115">Close Income Statement</span></span>](year-close-income-statement.md)  
-[<span data-ttu-id="070e5-116">So geht's: Buchhaltungsperioden schließen</span><span class="sxs-lookup"><span data-stu-id="070e5-116">How to: Close Accounting Periods</span></span>](year-close-account-periods.md)  
+## <a name="see-also"></a><span data-ttu-id="0675e-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="0675e-113">See Also</span></span>
+[<span data-ttu-id="0675e-114">So geht's: Buchhaltungsperioden schließen</span><span class="sxs-lookup"><span data-stu-id="0675e-114">How to: Close Accounting Periods</span></span>](year-close-account-periods.md)  
+[<span data-ttu-id="0675e-115">Schließen der Bücher</span><span class="sxs-lookup"><span data-stu-id="0675e-115">Closing Books</span></span>](year-close-books.md)  
+[<span data-ttu-id="0675e-116">GuV-Konten Nullstellung</span><span class="sxs-lookup"><span data-stu-id="0675e-116">Close Income Statement</span></span>](year-close-income-statement.md)  
+<span data-ttu-id="0675e-117">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0675e-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+

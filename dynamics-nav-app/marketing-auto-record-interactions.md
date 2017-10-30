@@ -1,31 +1,36 @@
 ---
-title: "Aktivitäten mit Kontakten automatisch aufzeichnen"
+title: "Automatische Erfassung von Aktivitäten einrichten"
+description: "Sie können Ihre Debitor- oder Clientaktivitäten beispielsweise Verkaufs-, Einkaufs- und Servicebelege oder Telefongespräche automatisch speichern."
+documentationcenter: 
 author: jswymer
-ms.custom: na
-ms.date: 09/16/2016
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
 ms.prod: dynamics-nav-2017
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6b60b1344a1e18ad91863046110df880f75f7c04
-ms.openlocfilehash: 0b94b7a0186623d481dd86846e51080ee4d7f700
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: marketing, relationship, prospect, contact, client, customer
+ms.date: 06/06/2017
+ms.author: jswymer
+ms.translationtype: HT
+ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
+ms.openlocfilehash: 36f783d27cfc7306f15d086a3dc25a56591d0f1e
 ms.contentlocale: de-ch
-ms.lasthandoff: 07/19/2017
+ms.lasthandoff: 10/16/2017
 
 ---
-# <a name="automatically-record-interactions-with-contacts"></a><span data-ttu-id="95c80-102">Aktivitäten mit Kontakten automatisch aufzeichnen</span><span class="sxs-lookup"><span data-stu-id="95c80-102">Automatically Record Interactions with Contacts</span></span>
-<span data-ttu-id="95c80-103">Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für Verkaufs-, Einkaufs- und Servicebelege, Deckblätter, E-Mails und Telefonanrufe konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="95c80-103">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
+# <a name="recording-interactions-with-contacts-automatically"></a><span data-ttu-id="7f2c3-103">Aktivitäten mit Kontakten automatisch aufzeichnen</span><span class="sxs-lookup"><span data-stu-id="7f2c3-103">Recording Interactions with Contacts Automatically</span></span>
+<span data-ttu-id="7f2c3-104">Sie können Anwendung für die Automatische Aufzeichnung von Aktivitäten für Verkaufs-, Einkaufs- und Servicebelege, Deckblätter, E-Mails und Telefonanrufe konfigurieren:</span><span class="sxs-lookup"><span data-stu-id="7f2c3-104">You can set up the application to automatically record interactions for sales, purchase and service documents, cover sheets, e-mails, phone calls, such as:</span></span>
 
-* <span data-ttu-id="95c80-104">Drucken von Verkaufs- und Einkaufsofferten, Bestellungen, Rechnungen, Gutschriften, Deckblätter.</span><span class="sxs-lookup"><span data-stu-id="95c80-104">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
-* <span data-ttu-id="95c80-105">Erstellen von Verkaufsserviceaufträgen</span><span class="sxs-lookup"><span data-stu-id="95c80-105">Create sales service orders.</span></span>
-* <span data-ttu-id="95c80-106">Buchen Sie Verkaufsserviceaufträge.</span><span class="sxs-lookup"><span data-stu-id="95c80-106">Post sales service orders.</span></span>
-* <span data-ttu-id="95c80-107">Senden Sie E-Mails an Ihre Kontakte.</span><span class="sxs-lookup"><span data-stu-id="95c80-107">Send e-mails to your contacts.</span></span>
-* <span data-ttu-id="95c80-108">Rufen Sie Ihre Kontakte an, wenn Sie ein TAPI-fähiges Telefon und die entsprechende Installation haben.</span><span class="sxs-lookup"><span data-stu-id="95c80-108">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
+* <span data-ttu-id="7f2c3-105">Drucken von Verkaufs- und Einkaufsofferten, Bestellungen, Rechnungen, Gutschriften, Deckblätter.</span><span class="sxs-lookup"><span data-stu-id="7f2c3-105">Print sales or purchase quotes, orders, invoices, credit memos, cover sheets.</span></span>
+* <span data-ttu-id="7f2c3-106">Erstellen von Verkaufsserviceaufträgen</span><span class="sxs-lookup"><span data-stu-id="7f2c3-106">Create sales service orders.</span></span>
+* <span data-ttu-id="7f2c3-107">Buchen Sie Verkaufsserviceaufträge.</span><span class="sxs-lookup"><span data-stu-id="7f2c3-107">Post sales service orders.</span></span>
+* <span data-ttu-id="7f2c3-108">Senden Sie E-Mails an Ihre Kontakte.</span><span class="sxs-lookup"><span data-stu-id="7f2c3-108">Send e-mails to your contacts.</span></span>
+* <span data-ttu-id="7f2c3-109">Rufen Sie Ihre Kontakte an, wenn Sie ein TAPI-fähiges Telefon und die entsprechende Installation haben.</span><span class="sxs-lookup"><span data-stu-id="7f2c3-109">Call your contacts, if you have a TAPI-compliant telephone and the correct installation.</span></span>
 
-<span data-ttu-id="95c80-109">Um die automatische Aufzeichnung dieser Aktivitäten einzurichten, geben Sie Aktivitätenvorlagen für diese Belege und Aktionen Aktivitätenvorlagen an, indem Sie das Fenster **Aktivitätenvorlage eingerichtet** verwenden.</span><span class="sxs-lookup"><span data-stu-id="95c80-109">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span> <span data-ttu-id="95c80-110">Um das **Aktivitätenvorlage einrichten**-Fenster zu öffnen, wählen Sie in der oberen rechten Ecke das **Nach Seite oder Bericht suchen** Symbol, geben Sie **Aktivitätenvorlage einrichten** ein, und wählen Sie dann den zugehörigen Link.</span><span class="sxs-lookup"><span data-stu-id="95c80-110">To open the **Interaction Template Setup** window, in the top right corner, choose the **Search for Page or Report** icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
+<span data-ttu-id="7f2c3-110">Um die automatische Aufzeichnung dieser Aktivitäten einzurichten, geben Sie Aktivitätenvorlagen für diese Belege und Aktionen Aktivitätenvorlagen an, indem Sie das Fenster **Aktivitätenvorlage eingerichtet** verwenden.</span><span class="sxs-lookup"><span data-stu-id="7f2c3-110">To set up the automatic recording of these interactions, you specify interaction templates for these documents and actions by using the **Interaction Template Setup** window.</span></span>  
+<span data-ttu-id="7f2c3-111">Um das Fenster **Interaktionsvorlage einrichten** zu öffnen wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen")aus und geben **Interaktionsvorlage einrichten** ein und wählen den entsprechenden Link aus.</span><span class="sxs-lookup"><span data-stu-id="7f2c3-111">To open the **Interaction Template Setup** window, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Interaction Template Setup**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="95c80-111">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="95c80-111">See Also</span></span>
-[<span data-ttu-id="95c80-112">Aufzeichnen von Aktivitäten mit Kontakten</span><span class="sxs-lookup"><span data-stu-id="95c80-112">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+## <a name="see-also"></a><span data-ttu-id="7f2c3-112">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="7f2c3-112">See Also</span></span>
+[<span data-ttu-id="7f2c3-113">Aufzeichnen von Aktivitäten mit Kontakten</span><span class="sxs-lookup"><span data-stu-id="7f2c3-113">Recording Interactions With Contacts</span></span>](marketing-interactions.md)  
+<span data-ttu-id="7f2c3-114">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7f2c3-114">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
