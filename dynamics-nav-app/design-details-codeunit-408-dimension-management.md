@@ -12,184 +12,184 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 560adbc39f4f77e27d9ac9be6dbea1aa7ed71c81
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: c1b3c745597f96165aec92a08bba50ecb6727a84
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/23/2017
 
 ---
-# <a name="design-details-codeunit-408-dimension-management"></a><span data-ttu-id="38c06-103">Designdetails: Codeunit 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="38c06-103">Design Details: Codeunit 408 Dimension Management</span></span>
-<span data-ttu-id="38c06-104">Codeunit 408 Dimension Management ist eine Funktionsbibliothek, die häufige Aufgaben im Zusammenhang mit Dimensionen behandelt, wie etwa das Kopieren von einer Tabelle zu einer anderen oder von einem Beleg zu einem anderen.</span><span class="sxs-lookup"><span data-stu-id="38c06-104">Codeunit 408 Dimension Management is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another.</span></span> <span data-ttu-id="38c06-105">Dieses Thema listet die Funktionen auf, die in Microsoft Dynamics NAV 2013 R2 geändert werden und gibt an, was mit den Funktionen durchgeführt werden muss.</span><span class="sxs-lookup"><span data-stu-id="38c06-105">This topic lists the functions that are modified in Microsoft Dynamics NAV 2013 R2 and specifies what has to be done to the functions.</span></span> <span data-ttu-id="38c06-106">Viele Funktionalitäten werden gelöscht, da ein Kopieren zwischen Dimensionstabellen nicht erforderlich gibt.</span><span class="sxs-lookup"><span data-stu-id="38c06-106">Many functions are deleted because there is no need for copying between dimension tables.</span></span>  
+# <a name="design-details-codeunit-408-dimension-management"></a><span data-ttu-id="59211-103">Designdetails: Codeunit 408 Dimension Management</span><span class="sxs-lookup"><span data-stu-id="59211-103">Design Details: Codeunit 408 Dimension Management</span></span>
+<span data-ttu-id="59211-104">Codeunit 408 Dimension Management ist eine Funktionsbibliothek, die häufige Aufgaben im Zusammenhang mit Dimensionen behandelt, wie etwa das Kopieren von einer Tabelle zu einer anderen oder von einem Beleg zu einem anderen.</span><span class="sxs-lookup"><span data-stu-id="59211-104">Codeunit 408 Dimension Management is a function library that handles common tasks that are related to dimensions, such as copying from one table to another or from one document to another.</span></span> <span data-ttu-id="59211-105">Dieses Thema listet die Funktionen auf, die in Microsoft Dynamics NAV 2013 R2 geändert werden und gibt an, was mit den Funktionen durchgeführt werden muss.</span><span class="sxs-lookup"><span data-stu-id="59211-105">This topic lists the functions that are modified in Microsoft Dynamics NAV 2013 R2 and specifies what has to be done to the functions.</span></span> <span data-ttu-id="59211-106">Viele Funktionalitäten werden gelöscht, da ein Kopieren zwischen Dimensionstabellen nicht erforderlich gibt.</span><span class="sxs-lookup"><span data-stu-id="59211-106">Many functions are deleted because there is no need for copying between dimension tables.</span></span>  
 
-## <a name="modified-functions"></a><span data-ttu-id="38c06-107">Geänderte Funktionen</span><span class="sxs-lookup"><span data-stu-id="38c06-107">Modified Functions</span></span>  
+## <a name="modified-functions"></a><span data-ttu-id="59211-107">Geänderte Funktionen</span><span class="sxs-lookup"><span data-stu-id="59211-107">Modified Functions</span></span>  
 
-|<span data-ttu-id="38c06-108">Funktionsname</span><span class="sxs-lookup"><span data-stu-id="38c06-108">Function Name</span></span>|<span data-ttu-id="38c06-109">Modifizierungsbeschreibung</span><span class="sxs-lookup"><span data-stu-id="38c06-109">Modification Description</span></span>|  
+|<span data-ttu-id="59211-108">Funktionsname</span><span class="sxs-lookup"><span data-stu-id="59211-108">Function Name</span></span>|<span data-ttu-id="59211-109">Modifizierungsbeschreibung</span><span class="sxs-lookup"><span data-stu-id="59211-109">Modification Description</span></span>|  
 |-------------------|------------------------------|  
-|<span data-ttu-id="38c06-110">CheckDimSetIDComb</span><span class="sxs-lookup"><span data-stu-id="38c06-110">CheckDimSetIDComb</span></span>|<span data-ttu-id="38c06-111">Neue Funktion, die die anderen Scheckfunktionen ersetzt und nimmt eine Dimensionssatz-ID als ein Argument anstelle einer Dimensionstabelle.</span><span class="sxs-lookup"><span data-stu-id="38c06-111">New function that substitutes the other check functions and takes a Dimension Set ID as an argument instead of a dimension table.</span></span>|  
-|<span data-ttu-id="38c06-112">CheckDimSetIDComb</span><span class="sxs-lookup"><span data-stu-id="38c06-112">CheckDimSetIDComb</span></span><br /><br /> <span data-ttu-id="38c06-113">CheckDocDimComb</span><span class="sxs-lookup"><span data-stu-id="38c06-113">CheckDocDimComb</span></span><br /><br /> <span data-ttu-id="38c06-114">CheckServContractDimComb</span><span class="sxs-lookup"><span data-stu-id="38c06-114">CheckServContractDimComb</span></span><br /><br /> <span data-ttu-id="38c06-115">CheckDimBuffer</span><span class="sxs-lookup"><span data-stu-id="38c06-115">CheckDimBuffer</span></span><br /><br /> <span data-ttu-id="38c06-116">CheckDimComb</span><span class="sxs-lookup"><span data-stu-id="38c06-116">CheckDimComb</span></span><br /><br /> <span data-ttu-id="38c06-117">CheckDimValueComb</span><span class="sxs-lookup"><span data-stu-id="38c06-117">CheckDimValueComb</span></span>|<span data-ttu-id="38c06-118">LÖSCHEN.</span><span class="sxs-lookup"><span data-stu-id="38c06-118">Delete.</span></span> <span data-ttu-id="38c06-119">Die gesamte Nutzung sollte zu CheckDimSetIDComb geändert werden.</span><span class="sxs-lookup"><span data-stu-id="38c06-119">All usage should be changed to CheckDimSetIDComb.</span></span>|  
-|<span data-ttu-id="38c06-120">GetDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-120">GetDefaultDim</span></span>|<span data-ttu-id="38c06-121">"Ändern", um eine ganzzahlige Dimensionssatz-ID anstelle eines Satzes von Datensätzen zurückzusenden.</span><span class="sxs-lookup"><span data-stu-id="38c06-121">Modify to return an integer Dimension Set ID instead of a set of records.</span></span>|  
-|<span data-ttu-id="38c06-122">CopyJnlLineDimToICJnlDim</span><span class="sxs-lookup"><span data-stu-id="38c06-122">CopyJnlLineDimToICJnlDim</span></span><br /><br /> <span data-ttu-id="38c06-123">CopyICJnlDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-123">CopyICJnlDimToJnlLineDim</span></span><br /><br /> <span data-ttu-id="38c06-124">CopyDocDimtoICDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-124">CopyDocDimtoICDocDim</span></span><br /><br /> <span data-ttu-id="38c06-125">CopyICDocDimtoICDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-125">CopyICDocDimtoICDocDim</span></span>|<span data-ttu-id="38c06-126">Ändern, um mit DimSetID zu arbeiten - > ICJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-126">Modify to work with DimSetID -> ICJnlLineDim</span></span>|  
+|<span data-ttu-id="59211-110">CheckDimSetIDComb</span><span class="sxs-lookup"><span data-stu-id="59211-110">CheckDimSetIDComb</span></span>|<span data-ttu-id="59211-111">Neue Funktion, die die anderen Scheckfunktionen ersetzt und nimmt eine Dimensionssatz-ID als ein Argument anstelle einer Dimensionstabelle.</span><span class="sxs-lookup"><span data-stu-id="59211-111">New function that substitutes the other check functions and takes a Dimension Set ID as an argument instead of a dimension table.</span></span>|  
+|<span data-ttu-id="59211-112">CheckDimSetIDComb</span><span class="sxs-lookup"><span data-stu-id="59211-112">CheckDimSetIDComb</span></span><br /><br /> <span data-ttu-id="59211-113">CheckDocDimComb</span><span class="sxs-lookup"><span data-stu-id="59211-113">CheckDocDimComb</span></span><br /><br /> <span data-ttu-id="59211-114">CheckServContractDimComb</span><span class="sxs-lookup"><span data-stu-id="59211-114">CheckServContractDimComb</span></span><br /><br /> <span data-ttu-id="59211-115">CheckDimBuffer</span><span class="sxs-lookup"><span data-stu-id="59211-115">CheckDimBuffer</span></span><br /><br /> <span data-ttu-id="59211-116">CheckDimComb</span><span class="sxs-lookup"><span data-stu-id="59211-116">CheckDimComb</span></span><br /><br /> <span data-ttu-id="59211-117">CheckDimValueComb</span><span class="sxs-lookup"><span data-stu-id="59211-117">CheckDimValueComb</span></span>|<span data-ttu-id="59211-118">LÖSCHEN.</span><span class="sxs-lookup"><span data-stu-id="59211-118">Delete.</span></span> <span data-ttu-id="59211-119">Die gesamte Nutzung sollte zu CheckDimSetIDComb geändert werden.</span><span class="sxs-lookup"><span data-stu-id="59211-119">All usage should be changed to CheckDimSetIDComb.</span></span>|  
+|<span data-ttu-id="59211-120">GetDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-120">GetDefaultDim</span></span>|<span data-ttu-id="59211-121">"Ändern", um eine ganzzahlige Dimensionssatz-ID anstelle eines Satzes von Datensätzen zurückzusenden.</span><span class="sxs-lookup"><span data-stu-id="59211-121">Modify to return an integer Dimension Set ID instead of a set of records.</span></span>|  
+|<span data-ttu-id="59211-122">CopyJnlLineDimToICJnlDim</span><span class="sxs-lookup"><span data-stu-id="59211-122">CopyJnlLineDimToICJnlDim</span></span><br /><br /> <span data-ttu-id="59211-123">CopyICJnlDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-123">CopyICJnlDimToJnlLineDim</span></span><br /><br /> <span data-ttu-id="59211-124">CopyDocDimtoICDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-124">CopyDocDimtoICDocDim</span></span><br /><br /> <span data-ttu-id="59211-125">CopyICDocDimtoICDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-125">CopyICDocDimtoICDocDim</span></span>|<span data-ttu-id="59211-126">Ändern, um mit DimSetID zu arbeiten - > ICJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-126">Modify to work with DimSetID -> ICJnlLineDim</span></span>|  
 
-## <a name="deleted-functions"></a><span data-ttu-id="38c06-127">Gelöschte Funktionen</span><span class="sxs-lookup"><span data-stu-id="38c06-127">Deleted Functions</span></span>  
- <span data-ttu-id="38c06-128">Funktionen, die aus Codeunit 408 in Verbindung mit den Dimensionssatzposten gelöscht werden, werden unten aufgelistet.</span><span class="sxs-lookup"><span data-stu-id="38c06-128">Functions that are deleted from codeunit 408 in connection with the Dimension Set Entries feature are listed below.</span></span>  
+## <a name="deleted-functions"></a><span data-ttu-id="59211-127">Gelöschte Funktionen</span><span class="sxs-lookup"><span data-stu-id="59211-127">Deleted Functions</span></span>  
+ <span data-ttu-id="59211-128">Funktionen, die aus Codeunit 408 in Verbindung mit den Dimensionssatzposten gelöscht werden, werden unten aufgelistet.</span><span class="sxs-lookup"><span data-stu-id="59211-128">Functions that are deleted from codeunit 408 in connection with the Dimension Set Entries feature are listed below.</span></span>  
 
 > [!CAUTION]  
->  <span data-ttu-id="38c06-129">Während des Upgrades des Anwendungscodes von Microsoft Dynamics NAV 2009 oder früheren Versionen zu Microsoft Dynamics NAV 2016 sind die folgenden Funktionen nicht in Microsoft Dynamics NAV 2016 verfügbar.</span><span class="sxs-lookup"><span data-stu-id="38c06-129">During the upgrade of application code from Microsoft Dynamics NAV 2009 or earlier versions to Microsoft Dynamics NAV 2016, the following functions are not available in Microsoft Dynamics NAV 2016.</span></span> <span data-ttu-id="38c06-130">Wenn Sie Anpassungen haben, die einen oder mehrere der Funktionalitäten verwenden, müssen Sie diesen Code entsprechend aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="38c06-130">If you have customizations that use one or more of the functions, you must upgrade that code accordingly.</span></span>
+>  <span data-ttu-id="59211-129">Während des Upgrades des Anwendungscodes von Microsoft Dynamics NAV 2009 oder früheren Versionen zu Microsoft Dynamics NAV 2016 sind die folgenden Funktionen nicht in Microsoft Dynamics NAV 2016 verfügbar.</span><span class="sxs-lookup"><span data-stu-id="59211-129">During the upgrade of application code from Microsoft Dynamics NAV 2009 or earlier versions to Microsoft Dynamics NAV 2016, the following functions are not available in Microsoft Dynamics NAV 2016.</span></span> <span data-ttu-id="59211-130">Wenn Sie Anpassungen haben, die einen oder mehrere der Funktionalitäten verwenden, müssen Sie diesen Code entsprechend aktualisieren.</span><span class="sxs-lookup"><span data-stu-id="59211-130">If you have customizations that use one or more of the functions, you must upgrade that code accordingly.</span></span>
 
- <span data-ttu-id="38c06-131">InsertJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-131">InsertJnlLineDim</span></span>  
+ <span data-ttu-id="59211-131">InsertJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-131">InsertJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-132">UpdateJnlLineDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-132">UpdateJnlLineDefaultDim</span></span>  
+ <span data-ttu-id="59211-132">UpdateJnlLineDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-132">UpdateJnlLineDefaultDim</span></span>  
 
- <span data-ttu-id="38c06-133">GetJnlLineDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-133">GetJnlLineDefaultDim</span></span>  
+ <span data-ttu-id="59211-133">GetJnlLineDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-133">GetJnlLineDefaultDim</span></span>  
 
- <span data-ttu-id="38c06-134">GetPreviousDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-134">GetPreviousDocDefaultDim</span></span>  
+ <span data-ttu-id="59211-134">GetPreviousDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-134">GetPreviousDocDefaultDim</span></span>  
 
- <span data-ttu-id="38c06-135">GetPreviousProdDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-135">GetPreviousProdDocDefaultDim</span></span>  
+ <span data-ttu-id="59211-135">GetPreviousProdDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-135">GetPreviousProdDocDefaultDim</span></span>  
 
- <span data-ttu-id="38c06-136">InsertDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-136">InsertDocDim</span></span>  
+ <span data-ttu-id="59211-136">InsertDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-136">InsertDocDim</span></span>  
 
- <span data-ttu-id="38c06-137">UpdateDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-137">UpdateDocDefaultDim</span></span>  
+ <span data-ttu-id="59211-137">UpdateDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-137">UpdateDocDefaultDim</span></span>  
 
- <span data-ttu-id="38c06-138">ExtractDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-138">ExtractDocDefaultDim</span></span>  
+ <span data-ttu-id="59211-138">ExtractDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-138">ExtractDocDefaultDim</span></span>  
 
- <span data-ttu-id="38c06-139">InsertProdDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-139">InsertProdDocDim</span></span>  
+ <span data-ttu-id="59211-139">InsertProdDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-139">InsertProdDocDim</span></span>  
 
- <span data-ttu-id="38c06-140">UpdateProdDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="38c06-140">UpdateProdDocDefaultDim</span></span>  
+ <span data-ttu-id="59211-140">UpdateProdDocDefaultDim</span><span class="sxs-lookup"><span data-stu-id="59211-140">UpdateProdDocDefaultDim</span></span>  
 
- <span data-ttu-id="38c06-141">InsertServContractDim</span><span class="sxs-lookup"><span data-stu-id="38c06-141">InsertServContractDim</span></span>  
+ <span data-ttu-id="59211-141">InsertServContractDim</span><span class="sxs-lookup"><span data-stu-id="59211-141">InsertServContractDim</span></span>  
 
- <span data-ttu-id="38c06-142">UpdateServcontractDim</span><span class="sxs-lookup"><span data-stu-id="38c06-142">UpdateServcontractDim</span></span>  
+ <span data-ttu-id="59211-142">UpdateServcontractDim</span><span class="sxs-lookup"><span data-stu-id="59211-142">UpdateServcontractDim</span></span>  
 
- <span data-ttu-id="38c06-143">UpdateDefaultDimNewDimValue</span><span class="sxs-lookup"><span data-stu-id="38c06-143">UpdateDefaultDimNewDimValue</span></span>  
+ <span data-ttu-id="59211-143">UpdateDefaultDimNewDimValue</span><span class="sxs-lookup"><span data-stu-id="59211-143">UpdateDefaultDimNewDimValue</span></span>  
 
- <span data-ttu-id="38c06-144">GetDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-144">GetDocDim</span></span>  
+ <span data-ttu-id="59211-144">GetDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-144">GetDocDim</span></span>  
 
- <span data-ttu-id="38c06-145">GetProdDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-145">GetProdDocDim</span></span>  
+ <span data-ttu-id="59211-145">GetProdDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-145">GetProdDocDim</span></span>  
 
- <span data-ttu-id="38c06-146">TypeToTableID1</span><span class="sxs-lookup"><span data-stu-id="38c06-146">TypeToTableID1</span></span>  
+ <span data-ttu-id="59211-146">TypeToTableID1</span><span class="sxs-lookup"><span data-stu-id="59211-146">TypeToTableID1</span></span>  
 
- <span data-ttu-id="38c06-147">TypeToTableID2</span><span class="sxs-lookup"><span data-stu-id="38c06-147">TypeToTableID2</span></span>  
+ <span data-ttu-id="59211-147">TypeToTableID2</span><span class="sxs-lookup"><span data-stu-id="59211-147">TypeToTableID2</span></span>  
 
- <span data-ttu-id="38c06-148">TypeToTableID3</span><span class="sxs-lookup"><span data-stu-id="38c06-148">TypeToTableID3</span></span>  
+ <span data-ttu-id="59211-148">TypeToTableID3</span><span class="sxs-lookup"><span data-stu-id="59211-148">TypeToTableID3</span></span>  
 
- <span data-ttu-id="38c06-149">TypeToTableID4</span><span class="sxs-lookup"><span data-stu-id="38c06-149">TypeToTableID4</span></span>  
+ <span data-ttu-id="59211-149">TypeToTableID4</span><span class="sxs-lookup"><span data-stu-id="59211-149">TypeToTableID4</span></span>  
 
- <span data-ttu-id="38c06-150">TypeToTableID5</span><span class="sxs-lookup"><span data-stu-id="38c06-150">TypeToTableID5</span></span>  
+ <span data-ttu-id="59211-150">TypeToTableID5</span><span class="sxs-lookup"><span data-stu-id="59211-150">TypeToTableID5</span></span>  
 
- <span data-ttu-id="38c06-151">DeleteJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-151">DeleteJnlLineDim</span></span>  
+ <span data-ttu-id="59211-151">DeleteJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-151">DeleteJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-152">DeleteDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-152">DeleteDocDim</span></span>  
+ <span data-ttu-id="59211-152">DeleteDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-152">DeleteDocDim</span></span>  
 
- <span data-ttu-id="38c06-153">DeletePostedDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-153">DeletePostedDocDim</span></span>  
+ <span data-ttu-id="59211-153">DeletePostedDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-153">DeletePostedDocDim</span></span>  
 
- <span data-ttu-id="38c06-154">DeleteProdDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-154">DeleteProdDocDim</span></span>  
+ <span data-ttu-id="59211-154">DeleteProdDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-154">DeleteProdDocDim</span></span>  
 
- <span data-ttu-id="38c06-155">DeleteServContractDim</span><span class="sxs-lookup"><span data-stu-id="38c06-155">DeleteServContractDim</span></span>  
+ <span data-ttu-id="59211-155">DeleteServContractDim</span><span class="sxs-lookup"><span data-stu-id="59211-155">DeleteServContractDim</span></span>  
 
- <span data-ttu-id="38c06-156">ShowJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-156">ShowJnlLineDim</span></span>  
+ <span data-ttu-id="59211-156">ShowJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-156">ShowJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-157">SaveJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-157">SaveJnlLineDim</span></span>  
+ <span data-ttu-id="59211-157">SaveJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-157">SaveJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-158">ShowJnlLineNewDim</span><span class="sxs-lookup"><span data-stu-id="38c06-158">ShowJnlLineNewDim</span></span>  
+ <span data-ttu-id="59211-158">ShowJnlLineNewDim</span><span class="sxs-lookup"><span data-stu-id="59211-158">ShowJnlLineNewDim</span></span>  
 
- <span data-ttu-id="38c06-159">SaveJnlLineNewDim</span><span class="sxs-lookup"><span data-stu-id="38c06-159">SaveJnlLineNewDim</span></span>  
+ <span data-ttu-id="59211-159">SaveJnlLineNewDim</span><span class="sxs-lookup"><span data-stu-id="59211-159">SaveJnlLineNewDim</span></span>  
 
- <span data-ttu-id="38c06-160">ShowDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-160">ShowDocDim</span></span>  
+ <span data-ttu-id="59211-160">ShowDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-160">ShowDocDim</span></span>  
 
- <span data-ttu-id="38c06-161">SaveDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-161">SaveDocDim</span></span>  
+ <span data-ttu-id="59211-161">SaveDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-161">SaveDocDim</span></span>  
 
- <span data-ttu-id="38c06-162">ShowProdDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-162">ShowProdDocDim</span></span>  
+ <span data-ttu-id="59211-162">ShowProdDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-162">ShowProdDocDim</span></span>  
 
- <span data-ttu-id="38c06-163">SaveProdDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-163">SaveProdDocDim</span></span>  
+ <span data-ttu-id="59211-163">SaveProdDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-163">SaveProdDocDim</span></span>  
 
- <span data-ttu-id="38c06-164">ShowTempDim</span><span class="sxs-lookup"><span data-stu-id="38c06-164">ShowTempDim</span></span>  
+ <span data-ttu-id="59211-164">ShowTempDim</span><span class="sxs-lookup"><span data-stu-id="59211-164">ShowTempDim</span></span>  
 
- <span data-ttu-id="38c06-165">SaveTempDim</span><span class="sxs-lookup"><span data-stu-id="38c06-165">SaveTempDim</span></span>  
+ <span data-ttu-id="59211-165">SaveTempDim</span><span class="sxs-lookup"><span data-stu-id="59211-165">SaveTempDim</span></span>  
 
- <span data-ttu-id="38c06-166">ShowTempNewDim</span><span class="sxs-lookup"><span data-stu-id="38c06-166">ShowTempNewDim</span></span>  
+ <span data-ttu-id="59211-166">ShowTempNewDim</span><span class="sxs-lookup"><span data-stu-id="59211-166">ShowTempNewDim</span></span>  
 
- <span data-ttu-id="38c06-167">SaveTempNewDim</span><span class="sxs-lookup"><span data-stu-id="38c06-167">SaveTempNewDim</span></span>  
+ <span data-ttu-id="59211-167">SaveTempNewDim</span><span class="sxs-lookup"><span data-stu-id="59211-167">SaveTempNewDim</span></span>  
 
- <span data-ttu-id="38c06-168">SaveServContractDim</span><span class="sxs-lookup"><span data-stu-id="38c06-168">SaveServContractDim</span></span>  
+ <span data-ttu-id="59211-168">SaveServContractDim</span><span class="sxs-lookup"><span data-stu-id="59211-168">SaveServContractDim</span></span>  
 
- <span data-ttu-id="38c06-169">CopyLedgEntryDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-169">MoveJnlLineDimToLedgEntryDim</span></span>  
+ <span data-ttu-id="59211-169">CopyLedgEntryDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-169">MoveJnlLineDimToLedgEntryDim</span></span>  
 
- <span data-ttu-id="38c06-170">MoveDocDimToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-170">MoveDocDimToPostedDocDim</span></span>  
+ <span data-ttu-id="59211-170">MoveDocDimToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-170">MoveDocDimToPostedDocDim</span></span>  
 
- <span data-ttu-id="38c06-171">MoveDocDimToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-171">MoveOneDocDimToPostedDocDim</span></span>  
+ <span data-ttu-id="59211-171">MoveDocDimToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-171">MoveOneDocDimToPostedDocDim</span></span>  
 
- <span data-ttu-id="38c06-172">CopyLedgEntryDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-172">MoveLedgEntryDimToJnlLineDim</span></span>  
+ <span data-ttu-id="59211-172">CopyLedgEntryDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-172">MoveLedgEntryDimToJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-173">MoveDimBufToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-173">MoveDimBufToJnlLineDim</span></span>  
+ <span data-ttu-id="59211-173">MoveDimBufToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-173">MoveDimBufToJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-174">MoveDimBufToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="38c06-174">MoveDimBufToLedgEntryDim</span></span>  
+ <span data-ttu-id="59211-174">MoveDimBufToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="59211-174">MoveDimBufToLedgEntryDim</span></span>  
 
- <span data-ttu-id="38c06-175">MoveDimBufToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-175">MoveDimBufToPostedDocDim</span></span>  
+ <span data-ttu-id="59211-175">MoveDimBufToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-175">MoveDimBufToPostedDocDim</span></span>  
 
- <span data-ttu-id="38c06-176">MoveDimBufToGLBudgetDim</span><span class="sxs-lookup"><span data-stu-id="38c06-176">MoveDimBufToGLBudgetDim</span></span>  
+ <span data-ttu-id="59211-176">MoveDimBufToGLBudgetDim</span><span class="sxs-lookup"><span data-stu-id="59211-176">MoveDimBufToGLBudgetDim</span></span>  
 
- <span data-ttu-id="38c06-177">CopyJnlLineDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-177">CopyJnlLineDimToJnlLineDim</span></span>  
+ <span data-ttu-id="59211-177">CopyJnlLineDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-177">CopyJnlLineDimToJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-178">CopyLedgEntryDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-178">CopyLedgEntryDimToJnlLineDim</span></span>  
+ <span data-ttu-id="59211-178">CopyLedgEntryDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-178">CopyLedgEntryDimToJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-179">CopyDocDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-179">CopyDocDimToDocDim</span></span>  
+ <span data-ttu-id="59211-179">CopyDocDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-179">CopyDocDimToDocDim</span></span>  
 
- <span data-ttu-id="38c06-180">CopyPostedDocDimToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-180">CopyPostedDocDimToPostedDocDim</span></span>  
+ <span data-ttu-id="59211-180">CopyPostedDocDimToPostedDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-180">CopyPostedDocDimToPostedDocDim</span></span>  
 
- <span data-ttu-id="38c06-181">CopyDocDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-181">CopyDocDimToJnlLineDim</span></span>  
+ <span data-ttu-id="59211-181">CopyDocDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-181">CopyDocDimToJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-182">CopyDimBufToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-182">CopyDimBufToJnlLineDim</span></span>  
+ <span data-ttu-id="59211-182">CopyDimBufToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-182">CopyDimBufToJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-183">CopyDimBufToDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-183">CopyDimBufToDocDim</span></span>  
+ <span data-ttu-id="59211-183">CopyDimBufToDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-183">CopyDimBufToDocDim</span></span>  
 
- <span data-ttu-id="38c06-184">CopySCDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-184">CopySCDimToDocDim</span></span>  
+ <span data-ttu-id="59211-184">CopySCDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-184">CopySCDimToDocDim</span></span>  
 
- <span data-ttu-id="38c06-185">MoveDocDimToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="38c06-185">MoveDocDimToLedgEntryDim</span></span>  
+ <span data-ttu-id="59211-185">MoveDocDimToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="59211-185">MoveDocDimToLedgEntryDim</span></span>  
 
- <span data-ttu-id="38c06-186">MoveDocDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-186">MoveDocDimToDocDim</span></span>  
+ <span data-ttu-id="59211-186">MoveDocDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-186">MoveDocDimToDocDim</span></span>  
 
- <span data-ttu-id="38c06-187">MoveDocDimArchvToDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-187">MoveDocDimArchvToDocDim</span></span>  
+ <span data-ttu-id="59211-187">MoveDocDimArchvToDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-187">MoveDocDimArchvToDocDim</span></span>  
 
- <span data-ttu-id="38c06-188">MoveDocDimToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="38c06-188">MoveLedgEntryDimToDocDim</span></span>  
+ <span data-ttu-id="59211-188">MoveDocDimToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="59211-188">MoveLedgEntryDimToDocDim</span></span>  
 
- <span data-ttu-id="38c06-189">MoveProdDocDimToProdDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-189">MoveProdDocDimToProdDocDim</span></span>  
+ <span data-ttu-id="59211-189">MoveProdDocDimToProdDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-189">MoveProdDocDimToProdDocDim</span></span>  
 
- <span data-ttu-id="38c06-190">CopyDocDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-190">MoveJnlLineDimToProdDocDim</span></span>  
+ <span data-ttu-id="59211-190">CopyDocDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-190">MoveJnlLineDimToProdDocDim</span></span>  
 
- <span data-ttu-id="38c06-191">CopyDocDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-191">MoveJnlLineDimToDocDim</span></span>  
+ <span data-ttu-id="59211-191">CopyDocDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-191">MoveJnlLineDimToDocDim</span></span>  
 
- <span data-ttu-id="38c06-192">MoveJnlLineDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-192">MoveJnlLineDimToJnlLineDim</span></span>  
+ <span data-ttu-id="59211-192">MoveJnlLineDimToJnlLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-192">MoveJnlLineDimToJnlLineDim</span></span>  
 
- <span data-ttu-id="38c06-193">CopyLedgEntryDimToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="38c06-193">CopyLedgEntryDimToLedgEntryDim</span></span>  
+ <span data-ttu-id="59211-193">CopyLedgEntryDimToLedgEntryDim</span><span class="sxs-lookup"><span data-stu-id="59211-193">CopyLedgEntryDimToLedgEntryDim</span></span>  
 
- <span data-ttu-id="38c06-194">MoveTempFromDimToTempToDim</span><span class="sxs-lookup"><span data-stu-id="38c06-194">MoveTempFromDimToTempToDim</span></span>  
+ <span data-ttu-id="59211-194">MoveTempFromDimToTempToDim</span><span class="sxs-lookup"><span data-stu-id="59211-194">MoveTempFromDimToTempToDim</span></span>  
 
- <span data-ttu-id="38c06-195">TransferTempToDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="38c06-195">TransferTempToDimToDocDim</span></span>  
+ <span data-ttu-id="59211-195">TransferTempToDimToDocDim</span><span class="sxs-lookup"><span data-stu-id="59211-195">TransferTempToDimToDocDim</span></span>  
 
- <span data-ttu-id="38c06-196">MoveJnlLineDimToBuf</span><span class="sxs-lookup"><span data-stu-id="38c06-196">MoveJnlLineDimToBuf</span></span>  
+ <span data-ttu-id="59211-196">MoveJnlLineDimToBuf</span><span class="sxs-lookup"><span data-stu-id="59211-196">MoveJnlLineDimToBuf</span></span>  
 
- <span data-ttu-id="38c06-197">CopyICJnlDimToICJnlDim</span><span class="sxs-lookup"><span data-stu-id="38c06-197">CopyICJnlDimToICJnlDim</span></span>  
+ <span data-ttu-id="59211-197">CopyICJnlDimToICJnlDim</span><span class="sxs-lookup"><span data-stu-id="59211-197">CopyICJnlDimToICJnlDim</span></span>  
 
- <span data-ttu-id="38c06-198">TestDimValue</span><span class="sxs-lookup"><span data-stu-id="38c06-198">TestDimValue</span></span>  
+ <span data-ttu-id="59211-198">TestDimValue</span><span class="sxs-lookup"><span data-stu-id="59211-198">TestDimValue</span></span>  
 
- <span data-ttu-id="38c06-199">TestNewDimValue</span><span class="sxs-lookup"><span data-stu-id="38c06-199">TestNewDimValue</span></span>  
+ <span data-ttu-id="59211-199">TestNewDimValue</span><span class="sxs-lookup"><span data-stu-id="59211-199">TestNewDimValue</span></span>  
 
- <span data-ttu-id="38c06-200">MoveDimBufToItemBudgetDim.</span><span class="sxs-lookup"><span data-stu-id="38c06-200">MoveDimBufToItemBudgetDim.</span></span> <span data-ttu-id="38c06-201">(Löschen, da die ItemBudgetDim-Tabelle gelöscht ist.</span><span class="sxs-lookup"><span data-stu-id="38c06-201">(Delete because the ItemBudgetDim Table is deleted.</span></span>  
+ <span data-ttu-id="59211-200">MoveDimBufToItemBudgetDim.</span><span class="sxs-lookup"><span data-stu-id="59211-200">MoveDimBufToItemBudgetDim.</span></span> <span data-ttu-id="59211-201">(Löschen, da die ItemBudgetDim-Tabelle gelöscht ist.)</span><span class="sxs-lookup"><span data-stu-id="59211-201">(Delete because the ItemBudgetDim Table is deleted.)</span></span>  
 
- <span data-ttu-id="38c06-202">GetServContractDim</span><span class="sxs-lookup"><span data-stu-id="38c06-202">GetServContractDim</span></span>  
+ <span data-ttu-id="59211-202">GetServContractDim</span><span class="sxs-lookup"><span data-stu-id="59211-202">GetServContractDim</span></span>  
 
- <span data-ttu-id="38c06-203">MoveTempDimToBuf</span><span class="sxs-lookup"><span data-stu-id="38c06-203">MoveTempDimToBuf</span></span>  
+ <span data-ttu-id="59211-203">MoveTempDimToBuf</span><span class="sxs-lookup"><span data-stu-id="59211-203">MoveTempDimToBuf</span></span>  
 
- <span data-ttu-id="38c06-204">UpdateSCInvLineDim</span><span class="sxs-lookup"><span data-stu-id="38c06-204">UpdateSCInvLineDim</span></span>  
+ <span data-ttu-id="59211-204">UpdateSCInvLineDim</span><span class="sxs-lookup"><span data-stu-id="59211-204">UpdateSCInvLineDim</span></span>  
 
- <span data-ttu-id="38c06-205">CopyJnlLineDimToBuffer</span><span class="sxs-lookup"><span data-stu-id="38c06-205">CopyJnlLineDimToBuffer</span></span>  
+ <span data-ttu-id="59211-205">CopyJnlLineDimToBuffer</span><span class="sxs-lookup"><span data-stu-id="59211-205">CopyJnlLineDimToBuffer</span></span>  
 
- <span data-ttu-id="38c06-206">UpdateDocDefaultDim2</span><span class="sxs-lookup"><span data-stu-id="38c06-206">UpdateDocDefaultDim2</span></span>  
+ <span data-ttu-id="59211-206">UpdateDocDefaultDim2</span><span class="sxs-lookup"><span data-stu-id="59211-206">UpdateDocDefaultDim2</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="38c06-207">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="38c06-207">See Also</span></span>
- <span data-ttu-id="38c06-208">[Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="38c06-208">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
- <span data-ttu-id="38c06-209">[Designdetails: Dimensionssatzposten Übersicht](design-details-dimension-set-entries-overview.md) </span><span class="sxs-lookup"><span data-stu-id="38c06-209">[Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md) </span></span>  
- <span data-ttu-id="38c06-210">[Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md) </span><span class="sxs-lookup"><span data-stu-id="38c06-210">[Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md) </span></span>  
- <span data-ttu-id="38c06-211">[Designdetails: Tabellenstruktur](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="38c06-211">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
- [<span data-ttu-id="38c06-212">Designdetails: Codebeispiele von geänderten Mustern in Änderungen</span><span class="sxs-lookup"><span data-stu-id="38c06-212">Design Details: Code Examples of Changed Patterns in Modifications</span></span>](design-details-code-examples-of-changed-patterns-in-modifications.md)
+## <a name="see-also"></a><span data-ttu-id="59211-207">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="59211-207">See Also</span></span>
+ <span data-ttu-id="59211-208">[Designdetails: Dimensionssatzposten](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="59211-208">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+ <span data-ttu-id="59211-209">[Designdetails: Dimensionssatzposten Übersicht](design-details-dimension-set-entries-overview.md) </span><span class="sxs-lookup"><span data-stu-id="59211-209">[Design Details: Dimension Set Entries Overview](design-details-dimension-set-entries-overview.md) </span></span>  
+ <span data-ttu-id="59211-210">[Designdetails: Suche nach Dimensionskombinationen](design-details-searching-for-dimension-combinations.md) </span><span class="sxs-lookup"><span data-stu-id="59211-210">[Design Details: Searching for Dimension Combinations](design-details-searching-for-dimension-combinations.md) </span></span>  
+ <span data-ttu-id="59211-211">[Designdetails: Tabellenstruktur](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="59211-211">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+ [<span data-ttu-id="59211-212">Designdetails: Codebeispiele von geänderten Mustern in Änderungen</span><span class="sxs-lookup"><span data-stu-id="59211-212">Design Details: Code Examples of Changed Patterns in Modifications</span></span>](design-details-code-examples-of-changed-patterns-in-modifications.md)
 

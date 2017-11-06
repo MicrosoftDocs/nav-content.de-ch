@@ -12,44 +12,40 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 895dedf4b86157dca24b1107495df2047135fd67
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: 628c8e23bbd6cdd1dd518d57eb05b1be6f1245fa
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/23/2017
 
 ---
-# <a name="how-to-post-lsv-payments"></a><span data-ttu-id="d748c-103">Gewusst wie: Buchen von LSV+-Zahlungen</span><span class="sxs-lookup"><span data-stu-id="d748c-103">How to: Post LSV+ Payments</span></span>
-<span data-ttu-id="d748c-104">Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.</span><span class="sxs-lookup"><span data-stu-id="d748c-104">You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.</span></span>  
-  
-### <a name="to-post-lsv-payments"></a><span data-ttu-id="d748c-105">So buchen Sie LSV+-Zahlungen</span><span class="sxs-lookup"><span data-stu-id="d748c-105">To post LSV+ payments</span></span>  
-  
-1.  <span data-ttu-id="d748c-106">Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **Zlg.-Eing. Erfassungsjournale**. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="d748c-106">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.</span></span>  
-  
-2.  <span data-ttu-id="d748c-107">Wählen Sie das erforderliche Journal aus, und wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Erf.-Journal bearbeiten**.</span><span class="sxs-lookup"><span data-stu-id="d748c-107">Select the required journal, and on the **Home** tab, in the **Process** group, choose **Edit Journal**.</span></span>  
-  
+# <a name="how-to-post-lsv-payments"></a><span data-ttu-id="4380c-103">Gewusst wie: Buchen von LSV+-Zahlungen</span><span class="sxs-lookup"><span data-stu-id="4380c-103">How to: Post LSV+ Payments</span></span>
+<span data-ttu-id="4380c-104">Zahlungen können nach Empfang einer LSV+ (Lastschrift Verfahren)-Zahlungsanzeige von der Bank gebucht werden.</span><span class="sxs-lookup"><span data-stu-id="4380c-104">You can post payments after you have received Lastschrift Verfahren (LSV+) payment advice from the bank.</span></span>  
+
+## <a name="to-post-lsv-payments"></a><span data-ttu-id="4380c-105">So buchen Sie LSV+-Zahlungen</span><span class="sxs-lookup"><span data-stu-id="4380c-105">To post LSV+ payments</span></span>  
+
+1.  <span data-ttu-id="4380c-106">Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben die **Barbeleg-Buchblatt** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="4380c-106">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journals**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="4380c-107">Wählen Sie das entsprechende Journal aus und wählen Sie dass **Journal bearbeiten** aus.</span><span class="sxs-lookup"><span data-stu-id="4380c-107">Select the required journal, and then choose the **Edit Journal** action.</span></span>  
+
     > [!NOTE]  
-    >  <span data-ttu-id="d748c-108">Sie können den Erf.-Journalnamen für LSV auswählen, wo das betreffende Gegenkonto definiert ist.</span><span class="sxs-lookup"><span data-stu-id="d748c-108">You can select the journal batch for LSV where the balance account you want to address is defined.</span></span> <span data-ttu-id="d748c-109">Es kann jeweils nur eine LSV-Journalzeile in ein Zahlungseingangs Erf.-Journal importiert werden.</span><span class="sxs-lookup"><span data-stu-id="d748c-109">You cannot import more than one LSV journal line into the same cash receipt journal.</span></span> <span data-ttu-id="d748c-110">Weitere Informationen finden Sie im Fenster "Zahlungseingangs Erf.-Journal".</span><span class="sxs-lookup"><span data-stu-id="d748c-110">For more information, see the Cash Receipt Journal window.</span></span>  
-  
-3.  <span data-ttu-id="d748c-111">Wählen Sie auf der Registerkarte **Start** in der Gruppe **Vorgang** die Option **Aus LSV Journal abrufen** aus.</span><span class="sxs-lookup"><span data-stu-id="d748c-111">On the **Home** tab, in the **Process** group, choose **Get From LSV Journal**.</span></span>  
-  
-4.  <span data-ttu-id="d748c-112">Wählen Sie im Fenster **LSV-Journal Liste** die LSV-Journalzeile aus, die Sie in das Zahlungseingangs Erf.-Journal importieren möchten.</span><span class="sxs-lookup"><span data-stu-id="d748c-112">In the **LSV Journal List** window, select the LSV journal line that you want to import to the cash receipt journal.</span></span>  
-  
+    >  <span data-ttu-id="4380c-108">Sie können den Erf.-Journalnamen für LSV auswählen, wo das betreffende Gegenkonto definiert ist.</span><span class="sxs-lookup"><span data-stu-id="4380c-108">You can select the journal batch for LSV where the balance account you want to address is defined.</span></span> <span data-ttu-id="4380c-109">Es kann jeweils nur eine LSV-Journalzeile in ein Zahlungseingangs Erf.-Journal importiert werden.</span><span class="sxs-lookup"><span data-stu-id="4380c-109">You cannot import more than one LSV journal line into the same cash receipt journal.</span></span> <span data-ttu-id="4380c-110">Weitere Informationen finden Sie im Fenster "Zahlungseingangs Erf.-Journal".</span><span class="sxs-lookup"><span data-stu-id="4380c-110">For more information, see the Cash Receipt Journal window.</span></span>  
+
+3.  <span data-ttu-id="4380c-111">Wählen Sie die Aktion **von LSV-Erf.-Journal abrufen** aus.</span><span class="sxs-lookup"><span data-stu-id="4380c-111">Choose the **Get From LSV Journal** action.</span></span>  
+4.  <span data-ttu-id="4380c-112">Wählen Sie im Fenster **LSV-Journal Liste** die LSV-Journalzeile aus, die Sie in das Zahlungseingangs Erf.-Journal importieren möchten.</span><span class="sxs-lookup"><span data-stu-id="4380c-112">In the **LSV Journal List** window, select the LSV journal line that you want to import to the cash receipt journal.</span></span>  
+
     > [!NOTE]  
-    >  <span data-ttu-id="d748c-113">Es können nur Erf.-Journalzeilen importiert werden, in denen das Feld **LSV-Status** auf **Datei erstellt** festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="d748c-113">You can only import journal lines where the **LSV Status** field is set to **File Created**.</span></span>  
-  
-5.  <span data-ttu-id="d748c-114">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="d748c-114">Choose the **OK** button.</span></span>  
-  
-     <span data-ttu-id="d748c-115">Die LSV-Journalzeile wird in das Zahlungseingangs Erf.-Journal importiert.</span><span class="sxs-lookup"><span data-stu-id="d748c-115">The LSV journal line is imported into the cash receipt journal.</span></span> <span data-ttu-id="d748c-116">Der Wert im Feld **LSV-Status** im Fenster **LSV-Journal Liste** ändert sich von **Datei erstellt** in **Beendet**.</span><span class="sxs-lookup"><span data-stu-id="d748c-116">The value in the **LSV Status** field in the **LSV Journal List** window changes from **File Created** to **Finished**.</span></span>  
-  
-     <span data-ttu-id="d748c-117">Sie können die importierten Zahlungen überprüfen und sie mit der Bankzahlungsanzeige im Fenster **Zahlungseingangs Erf.-Journal** vergleichen.</span><span class="sxs-lookup"><span data-stu-id="d748c-117">You can check the imported payments, and compare them with your bank payment advice in the **Cash Receipt Journal** window.</span></span> <span data-ttu-id="d748c-118">Sie können auch die Zahlungszeilen löschen, die von der Bank nicht verarbeitet werden konnten und für die Sie sich manuell mit dem Debitor in Verbindung setzen müssen.</span><span class="sxs-lookup"><span data-stu-id="d748c-118">You can also delete the payment lines that could not be processed by the bank, and for which you must follow up with the customer manually.</span></span>  
-  
-6.  <span data-ttu-id="d748c-119">Wählen Sie auf der Registerkarte **Start** in der Gruppe **Buchen** die Option **Buchen** aus.</span><span class="sxs-lookup"><span data-stu-id="d748c-119">On the **Home** tab, in the **Posting** group, choose **Post**.</span></span>  
-  
-## <a name="see-also"></a><span data-ttu-id="d748c-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d748c-120">See Also</span></span>  
- <span data-ttu-id="d748c-121">[Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md) </span><span class="sxs-lookup"><span data-stu-id="d748c-121">[Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md) </span></span>  
- <span data-ttu-id="d748c-122">[Gewusst wie: Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md) </span><span class="sxs-lookup"><span data-stu-id="d748c-122">[How to: Process an LSV Collection](how-to-process-an-lsv-collection.md) </span></span>  
- <span data-ttu-id="d748c-123">[Gewusst wie: Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md) </span><span class="sxs-lookup"><span data-stu-id="d748c-123">[How to: Close an LSV Collection](how-to-close-an-lsv-collection.md) </span></span>  
- <span data-ttu-id="d748c-124">[Gewusst wie: Exportieren von Zahlungen mit LSV](how-to-export-payments-using-lsv.md) </span><span class="sxs-lookup"><span data-stu-id="d748c-124">[How to: Export Payments Using LSV](how-to-export-payments-using-lsv.md) </span></span>  
- <span data-ttu-id="d748c-125">Zahlungseingangs Erf.-Journal</span><span class="sxs-lookup"><span data-stu-id="d748c-125">Cash Receipt Journal</span></span>   
- <span data-ttu-id="d748c-126">LSV Journal</span><span class="sxs-lookup"><span data-stu-id="d748c-126">LSV Journal</span></span>   
- <span data-ttu-id="d748c-127">LSV-Journalzeile</span><span class="sxs-lookup"><span data-stu-id="d748c-127">LSV Journal Line</span></span>
+    >  <span data-ttu-id="4380c-113">Es können nur Erf.-Journalzeilen importiert werden, in denen das Feld **LSV-Status** auf **Datei erstellt** festgelegt ist.</span><span class="sxs-lookup"><span data-stu-id="4380c-113">You can only import journal lines where the **LSV Status** field is set to **File Created**.</span></span>  
+
+5.  <span data-ttu-id="4380c-114">Wählen Sie die Schaltfläche **OK** aus.</span><span class="sxs-lookup"><span data-stu-id="4380c-114">Choose the **OK** button.</span></span>  
+
+    <span data-ttu-id="4380c-115">Die LSV-Journalzeile wird in das Zahlungseingangs Erf.-Journal importiert.</span><span class="sxs-lookup"><span data-stu-id="4380c-115">The LSV journal line is imported into the cash receipt journal.</span></span> <span data-ttu-id="4380c-116">Der Wert im Feld **LSV-Status** im Fenster **LSV-Journal Liste** ändert sich von **Datei erstellt** in **Beendet**.</span><span class="sxs-lookup"><span data-stu-id="4380c-116">The value in the **LSV Status** field in the **LSV Journal List** window changes from **File Created** to **Finished**.</span></span>  
+
+    <span data-ttu-id="4380c-117">Sie können die importierten Zahlungen überprüfen und sie mit der Bankzahlungsanzeige im Fenster **Zahlungseingangs Erf.-Journal** vergleichen.</span><span class="sxs-lookup"><span data-stu-id="4380c-117">You can check the imported payments, and compare them with your bank payment advice in the **Cash Receipt Journal** window.</span></span> <span data-ttu-id="4380c-118">Sie können auch die Zahlungszeilen löschen, die von der Bank nicht verarbeitet werden konnten und für die Sie sich manuell mit dem Debitor in Verbindung setzen müssen.</span><span class="sxs-lookup"><span data-stu-id="4380c-118">You can also delete the payment lines that could not be processed by the bank, and for which you must follow up with the customer manually.</span></span>  
+
+6.  <span data-ttu-id="4380c-119">Wählen Sie die Aktion **Buchen** aus.</span><span class="sxs-lookup"><span data-stu-id="4380c-119">Choose the **Post** action.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="4380c-120">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="4380c-120">See Also</span></span>  
+ <span data-ttu-id="4380c-121">[Elektronische Zahlungen mit LSV+ (Schweiz)](swiss-electronic-payments-using-lsv-.md) </span><span class="sxs-lookup"><span data-stu-id="4380c-121">[Swiss Electronic Payments Using LSV+](swiss-electronic-payments-using-lsv-.md) </span></span>  
+ <span data-ttu-id="4380c-122">[Gewusst wie: Verarbeiten eines LSV-Einzugs](how-to-process-an-lsv-collection.md) </span><span class="sxs-lookup"><span data-stu-id="4380c-122">[How to: Process an LSV Collection](how-to-process-an-lsv-collection.md) </span></span>  
+ <span data-ttu-id="4380c-123">[Gewusst wie: Abschliessen eines LSV-Einzugs](how-to-close-an-lsv-collection.md) </span><span class="sxs-lookup"><span data-stu-id="4380c-123">[How to: Close an LSV Collection](how-to-close-an-lsv-collection.md) </span></span>  
+ [<span data-ttu-id="4380c-124">Gewusst wie: Exportieren von Zahlungen mit LSV</span><span class="sxs-lookup"><span data-stu-id="4380c-124">How to: Export Payments Using LSV</span></span>](how-to-export-payments-using-lsv.md) 
+

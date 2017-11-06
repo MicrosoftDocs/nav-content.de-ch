@@ -11,27 +11,27 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 9666627da75d88a5f7cf467b9e7cdaeba67c75cf
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: 1c197576564f4fe88a92d06c43e2b237f6836aa1
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/23/2017
 
 ---
-# <a name="how-to-view-test-reports-before-posting"></a><span data-ttu-id="bdafa-103">So wird's gemacht: Anzeigen von Testberichten vor dem Buchen</span><span class="sxs-lookup"><span data-stu-id="bdafa-103">How to: View Test Reports Before Posting</span></span>
-<span data-ttu-id="bdafa-104">Wenn Sie bereit sind, einen Beleg zu buchen (beispielsweise eine Bestellung, eine Einkaufsrechnung oder eine Einkaufsgutschrift), können Sie den Beleg testen, um sicherzustellen, dass keine Probleme vorhanden sind, die das Buchen verhindern.</span><span class="sxs-lookup"><span data-stu-id="bdafa-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
+# <a name="how-to-view-test-reports-before-posting"></a><span data-ttu-id="d26f0-103">So wird's gemacht: Anzeigen von Testberichten vor dem Buchen</span><span class="sxs-lookup"><span data-stu-id="d26f0-103">How to: View Test Reports Before Posting</span></span>
+<span data-ttu-id="d26f0-104">Wenn Sie bereit sind, einen Beleg zu buchen (beispielsweise eine Bestellung, eine Einkaufsrechnung oder eine Einkaufsgutschrift), können Sie den Beleg testen, um sicherzustellen, dass keine Probleme vorhanden sind, die das Buchen verhindern.</span><span class="sxs-lookup"><span data-stu-id="d26f0-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="bdafa-105">Die nachfolgende Prozedur beschreibt, wie Sie einen Einkaufsbeleg vor dem Verbuchen testen.</span><span class="sxs-lookup"><span data-stu-id="bdafa-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="bdafa-106">Diese Funktionalität gilt auf gleiche Weise für Verkaufsbelege.</span><span class="sxs-lookup"><span data-stu-id="bdafa-106">The functionality works in the same way for sales documents.</span></span>
+>   <span data-ttu-id="d26f0-105">Die nachfolgende Prozedur beschreibt, wie Sie einen Einkaufsbeleg vor dem Verbuchen testen.</span><span class="sxs-lookup"><span data-stu-id="d26f0-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="d26f0-106">Diese Funktionalität gilt auf gleiche Weise für Verkaufsbelege.</span><span class="sxs-lookup"><span data-stu-id="d26f0-106">The functionality works in the same way for sales documents.</span></span>
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="bdafa-107">So drucken Sie einen Testbericht vor der Buchung einer Einkaufsrechnung</span><span class="sxs-lookup"><span data-stu-id="bdafa-107">To print a test report before posting a purchase invoice</span></span>
-1. <span data-ttu-id="bdafa-108">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Kundenrechnung** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="bdafa-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
-2. <span data-ttu-id="bdafa-109">Öffnen Sie die Einkaufsrechnung, die Sie testen möchten.</span><span class="sxs-lookup"><span data-stu-id="bdafa-109">Open the purchase invoice that you want to test.</span></span>
-3. <span data-ttu-id="bdafa-110">Wählen Sie die **Bericht testen** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="bdafa-110">Choose the **Test Report** action.</span></span>  
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="d26f0-107">So drucken Sie einen Testbericht vor der Buchung einer Einkaufsrechnung</span><span class="sxs-lookup"><span data-stu-id="d26f0-107">To print a test report before posting a purchase invoice</span></span>
+1. <span data-ttu-id="d26f0-108">Wählen Sie das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und geben **Gebuchte Einkaufsrechnungen** ein. Wählen Sie dann den zugehörigen Link aus.</span><span class="sxs-lookup"><span data-stu-id="d26f0-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d26f0-109">Öffnen Sie die Einkaufsrechnung, die Sie testen möchten.</span><span class="sxs-lookup"><span data-stu-id="d26f0-109">Open the purchase invoice that you want to test.</span></span>
+3. <span data-ttu-id="d26f0-110">Wählen Sie die **Bericht testen** Aktion aus.</span><span class="sxs-lookup"><span data-stu-id="d26f0-110">Choose the **Test Report** action.</span></span>  
 
-<span data-ttu-id="bdafa-111">Alle Teile der Einkaufsrechnung werden überprüft, und die Ergebnisse werden in einem Bericht dargestellt.</span><span class="sxs-lookup"><span data-stu-id="bdafa-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="bdafa-112">Wenn der Bericht Fehler oder fehlende Informationen anzeigt, müssen Sie das jeweilige Problem lösen, bevor Sie die Einkaufsrechnung buchen.</span><span class="sxs-lookup"><span data-stu-id="bdafa-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
+<span data-ttu-id="d26f0-111">Alle Teile der Einkaufsrechnung werden überprüft, und die Ergebnisse werden in einem Bericht dargestellt.</span><span class="sxs-lookup"><span data-stu-id="d26f0-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="d26f0-112">Wenn der Bericht Fehler oder fehlende Informationen anzeigt, müssen Sie das jeweilige Problem lösen, bevor Sie die Einkaufsrechnung buchen.</span><span class="sxs-lookup"><span data-stu-id="d26f0-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="bdafa-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="bdafa-113">See Also</span></span>
-[<span data-ttu-id="bdafa-114">Journale und Dokumente buchen</span><span class="sxs-lookup"><span data-stu-id="bdafa-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
-<span data-ttu-id="bdafa-115">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="bdafa-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="d26f0-113">Siehe auch</span><span class="sxs-lookup"><span data-stu-id="d26f0-113">See Also</span></span>
+[<span data-ttu-id="d26f0-114">Journale und Dokumente buchen</span><span class="sxs-lookup"><span data-stu-id="d26f0-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="d26f0-115">[Arbeiten mit [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d26f0-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 
