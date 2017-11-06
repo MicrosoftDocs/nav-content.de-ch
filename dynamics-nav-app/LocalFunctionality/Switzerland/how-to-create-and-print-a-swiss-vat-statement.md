@@ -1,6 +1,6 @@
 ---
 title: Erstellen und Drucken einer Schweizer MWST-Abrechnung
-description: "Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[navnow](../../includes/navnow_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Vorgehensweisen in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST.-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden."
+description: "Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[navnow](../../includes/navnow_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST.-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden."
 documentationcenter: 
 author: SorenGP
 ms.prod: dynamics-nav-2017
@@ -12,33 +12,29 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: b7f857df4ea1aa14107c65dd89142c41e0c55bf1
+ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
+ms.openlocfilehash: 1670467e54419a2e229a449f6b14e696e16eb536
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="how-to-create-and-print-a-swiss-vat-statement"></a>Gewusst wie: Erstellen und Drucken einer Schweizer MWST-Abrechnung
-Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[navnow](../../includes/navnow_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Vorgehensweisen in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST.-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
-  
-### <a name="to-set-up-a-swiss-vat-statement-template"></a>So richten Sie eine MWST-Abrechnungsvorlage für die Schweiz ein  
-  
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **MWST-Abrechnung Vorlage aktualisieren**. Wählen Sie dann den zugehörigen Link aus.  
-  
-2.  Wählen Sie eine Vorlage im Feld **Name für MWST-Abrechnung Vorlage**. Weitere Informationen über das Erstellen einer neuen Vorlage finden Sie unter "MWST-Abrechnungsvorlage".  
-  
+Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[navnow](../../includes/navnow_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST.-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden.  
+
+## <a name="to-set-up-a-swiss-vat-statement-template"></a>So richten Sie eine MWST-Abrechnungsvorlage für die Schweiz ein  
+
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **MWST-Abrechnung Vorlage aktualisieren**. Wählen Sie dann den zugehörigen Link aus.  
+2.  Wählen Sie eine Vorlage im Feld **Name für MWST-Abrechnung Vorlage**.
 3.  Wählen Sie die Schaltfläche **OK** aus. Wählen Sie die Schaltfläche **Ja** aus, um zu bestätigen, dass Sie eine neue Vorlage erstellen möchten.  
-  
 4.  Überprüfen Sie die daraus entstehende MWST-Abrechnung, und passen Sie sie bei Bedarf an.  
-  
-     Die Seite "MWST-Abrechnung" enthält das Feld **MWST-Abrechnung Ziffer**, das angibt, in welcher Ziffer des Berichts das Ergebnis gedruckt wird. Das Feld wird von der Stapelverarbeitung automatisch anhand der Informationen im Fenster **MWST-Buchungsmatrix Einr.** ausgefüllt. Das Feld kann bei Bedarf bearbeitet werden.  
-  
-### <a name="to-print-the-swiss-vat-statement"></a>So drucken Sie die MWST-Abrechnung (Schweiz)  
-  
-1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **MWST-Abrechnung Schweiz**. Wählen Sie dann den zugehörigen Link aus.  
-  
+
+     Die MWST-Abrechnungs-Seite enthält das Feld **MWST-Abrechnungs-Verschlüsselung**, das angibt, in welche Verschlüsselung des Berichts das Ergebnis gedruckt wird. Das Feld wird von der Stapelverarbeitung automatisch anhand der Informationen im Fenster **MWST-Buchungsmatrix Einr.** ausgefüllt. Das Feld kann bei Bedarf bearbeitet werden.  
+
+## <a name="to-print-the-swiss-vat-statement"></a>So drucken Sie die MWST-Abrechnung (Schweiz)  
+
+1.  Alternativ wählen Sie in der rechten oberen Ecke das Symbol ![Nach Seite oder Bericht suchen](../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen") und öffnen **MWST-Abrechnung Schweiz**. Wählen Sie dann den zugehörigen Link aus.  
 2.  Füllen Sie auf dem Inforegister **Optionen** die Felder wie in der folgenden Tabelle beschrieben aus.  
-  
+
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
     |**Startdatum**|Geben Sie das Datum ein, an dem das Zeitintervall für die Anzeige von MWST.-Abrechnungszeilen im Bericht beginnen soll.|  
@@ -52,8 +48,8 @@ Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.*
     |**Normal (anderer Satz) %**|Geben Sie einen alternativen MWST-Satz für Standardtransaktionen ein, der für bestimmte Transaktionen während des Zeitraums gilt.|  
     |**Reduziert (anderer Satz) %**|Geben Sie einen alternativen MWST-Satz für andere Transaktionen ein, der für bestimmte Transaktionen während des Zeitraums gilt.|  
     |**Beherbergung (anderer Satz) %**|Geben Sie einen alternativen MWST-Satz für Beherbergung ein, der für bestimmte Transaktionen während des Zeitraums gilt.|  
-    |**Beträge in Berichtswährung anzeigen**|Option, um Beträge in einer zusätzlichen Berichtswährung anzuzeigen. Weitere Informationen finden Sie unter [Informationen zum Verwenden von Berichtswährungen](about-using-additional-reporting-currencies.md).|  
-  
+    |**Beträge in Berichtswährung anzeigen**|Option, um Beträge in einer zusätzlichen Berichtswährung anzuzeigen.|  
+
 ## <a name="see-also"></a>Siehe auch  
- [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)   
- MWST-Abrechnung Schweiz
+ [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)
+

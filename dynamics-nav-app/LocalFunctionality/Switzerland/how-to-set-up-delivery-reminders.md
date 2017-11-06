@@ -1,6 +1,6 @@
 ---
-title: Einrichten von Lieferanmahnungen
-description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)] können Sie Einkaufslieferanmahnungen verwenden, um Kreditoren an überfällige Lieferungen zu erinnern. Zum Erstellen von Lieferanmahnungen für Kreditoren müssen Sie Basisdaten für die Erstellung von Lieferanmahnungen und Nummernserien für Lieferanmahnungen im Fenster **Kreditoren & Einkauf Einrichtung** einrichten."
+title: Einrichten von Lieferbenachrichtigungen
+description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)] können Sie EinkaufsLieferbenachrichtigungen verwenden, um Kreditoren an überfällige Lieferungen zu erinnern."
 documentationcenter: 
 author: SorenGP
 ms.prod: dynamics-nav-2017
@@ -12,39 +12,38 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 6932a2004d4ac713fee87e9d4f5257d66c54db19
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: 436680a413482264196240d40a3063e9537c8ce2
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/23/2017
 
 ---
-# <a name="how-to-set-up-delivery-reminders"></a>Gewusst wie: Einrichten von Lieferanmahnungen
-In [!INCLUDE[navnow](../../includes/navnow_md.md)] können Sie Einkaufslieferanmahnungen verwenden, um Kreditoren an überfällige Lieferungen zu erinnern. Zum Erstellen von Lieferanmahnungen für Kreditoren müssen Sie Basisdaten für die Erstellung von Lieferanmahnungen und Nummernserien für Lieferanmahnungen im Fenster **Kreditoren & Einkauf Einrichtung** einrichten.  
-  
-### <a name="to-set-up-delivery-reminders"></a>So richten Sie Lieferanmahnungen ein  
-  
-1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), und öffnen Sie **Kreditoren- und Debitoren-Einrichtung**. Wählen Sie dann den zugehörigen Link aus.  
-  
+# <a name="how-to-set-up-delivery-reminders"></a>Gewusst wie: Einrichten von Lieferbenachrichtigungen
+In [!INCLUDE[navnow](../../includes/navnow_md.md)] können Sie EinkaufsLieferbenachrichtigungen verwenden, um Kreditoren an überfällige Lieferungen zu erinnern. Zum Erstellen von Lieferbenachrichtigungen für Kreditoren müssen Sie Basisdaten für die Erstellung von Lieferbenachrichtigungen und Nummernserien für Lieferbenachrichtigungen im Fenster **Kreditoren & Einkauf Einrichtung** einrichten.  
+
+## <a name="to-set-up-delivery-reminders"></a>So richten Sie Lieferbenachrichtigungen ein  
+
+1.  Wählen Sie das Symbol ![Nach Seite oder Bericht suchen] (../../media/ui-search/search_small.png "Nach Seite oder Bericht suchen"), und öffnen Sie **Kreditoren- und Debitoren-Einrichtung**. Wählen Sie dann den zugehörigen Link aus.  
 2.  Legen Sie im Inforegister **Allgemein** im Feld **Standard Lief.-Mahn. Datumsfeld** eine der folgenden Optionen gemäss der Beschreibung in der folgenden Tabelle fest.  
-  
-    |ADD INCLUDE<!--[!INCLUDE[bp_tableoption](../../includes/bp_tabledescription_md.md)]-->|  
+
+    |Option|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Gewünschtes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Gewünschtes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferanmahnungen verwendet wird.|  
-    |**Zugesagtes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Zugesagtes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferanmahnungen verwendet wird.|  
-    |**Erwartetes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Erwartetes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferanmahnungen verwendet wird.|  
-  
+    |**Gewünschtes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Gewünschtes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferbenachrichtigungen verwendet wird.|  
+    |**Zugesagtes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Zugesagtes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferbenachrichtigungen verwendet wird.|  
+    |**Erwartetes Wareneingangsdatum**|So legen Sie fest, dass der Datumswert im Feld **Erwartetes Wareneingangsdatum** auf der Bestellzeile als Standarddatum für das Erstellen von Lieferbenachrichtigungen verwendet wird.|  
+
 3.  Füllen Sie im Inforegister **Nummerierung** die Felder gemäss der Beschreibung in der folgenden Tabelle aus.  
-  
+
     |Feld|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Lieferanmahnungsnummern**|Der Nummernseriencode für Lieferanmahnungen.|  
-    |**Reg. Lieferanmahnungsnummern**|Der Nummernseriencode für ausgestellte Lieferanmahnungen.|  
-  
+    |**Lieferbenachrichtigungsnummern**|Der Nummernseriencode für Lieferbenachrichtigungen.|  
+    |**Reg. Lieferbenachrichtigungsnummern**|Der Nummernseriencode für ausgestellte Lieferbenachrichtigungen.|  
+
 4.  Wählen Sie die Schaltfläche **OK** aus.  
-  
+
 ## <a name="see-also"></a>Siehe auch  
- Kreditoren & Einkauf Einrichtung   
- [Lieferanmahnungen](delivery-reminders.md)   
- [Gewusst wie: Einrichten von Lieferanmahnungsmethoden, Ebenen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
- [Gewusst wie: Zuweisen von Lieferanmahnungscodes zu Kreditoren](how-to-assign-delivery-reminder-codes-to-vendors.md)   
- [Gewusst wie: Manuelles Erstellen von Lieferanmahnungen](how-to-create-delivery-reminders-manually.md)
+ [Lieferbenachrichtigungen](delivery-reminders.md)   
+ [Gewusst wie: Einrichten von Lieferbenachrichtigungsmethoden, Ebenen und Text](how-to-set-up-delivery-reminder-terms-levels-and-text.md)   
+ [Gewusst wie: Zuweisen von Lieferbenachrichtigungscodes zu Kreditoren](how-to-assign-delivery-reminder-codes-to-vendors.md)   
+ [Gewusst wie: Manuelles Erstellen von Lieferbenachrichtigungen](how-to-create-delivery-reminders-manually.md)
+

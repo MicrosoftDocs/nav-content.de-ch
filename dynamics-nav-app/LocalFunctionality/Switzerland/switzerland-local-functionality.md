@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 6ba62f7b2f0e4eef9de924e59bea61ed412e35d1
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: fc8add489bece39662de0d0d8e71d1e0c3d21d7c
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/23/2017
 
 ---
 # <a name="switzerland-local-functionality"></a>Lokale Funktion (Schweiz)
@@ -28,5 +28,8 @@ Die folgenden Themen beschreiben die exklusiven Funktionen der Schweizer Version
   [Lagerverwaltung (Schweiz)](swiss-inventory-management.md)  
   [Finanzbuchhaltungskonten (Schweiz)](swiss-general-ledger-accounts.md)  
   [Einkaufsbelege und Verkaufsbelege (Schweiz)](swiss-purchase-documents-and-sales-documents.md)  
-  [Gewusst wie: Drucken von Einrichtungsinformationen zur Finanzbuchhaltung](how-to-print-general-ledger-setup-information.md)  
+  [Gewusst wie: Drucken von Einrichtungsinformationen zur Finanzbuchhaltung](how-to-print-general-ledger-setup-information.md)
+
+## <a name="see-also"></a>Siehe auch
+[Arbeiten mit [!INCLUDE[navnow](../../includes/navnow_md.md)]](../../ui-work-product.md) 
 

@@ -12,17 +12,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 4fefaef7380ac10836fcac404eea006f55d8556f
-ms.openlocfilehash: 4203dff45aad47e5c0546358ca0d03988a512463
+ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
+ms.openlocfilehash: 9999da1ee6a5c7e0031a10426a154096e0644c86
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/16/2017
+ms.lasthandoff: 10/23/2017
 
 ---
 # <a name="vat-rates-for-switzerland"></a>MWST-Sätze für die Schweiz
 Falls sich die MWST-Sätze ändern, müssen Sie das Mehrwertsteuersatz-Änderungstool verwenden. In früheren Versionen von [!INCLUDE[navnow](../../includes/navnow_md.md)] konnten Sie abhängig vom Lieferdatum vorübergehend sowohl die neuen als auch die alten MWST-Sätze für Transaktionen verwenden. Diese Funktion ist veraltet.  
-  
- Weitere Informationen finden Sie unter [Durchführen von Mehrwertsteuersatz-Konvertierungen](perform-vat-rate-conversions.md).  
-  
+
+Weitere Informationen finden Sie unter [Gewusst wie: MWST Bericht an die Steuerbehörden melden](../../finance-how-report-vat.md).  
+
 ## <a name="see-also"></a>Siehe auch  
  [Mehrwertsteuer (Schweiz)](swiss-value-added-tax.md)   
  [Gewusst wie: Drucken von MWST-Abrechnungen (Schweiz) (ältere Version)](how-to-print-swiss-vat-statements-older-version-.md)
+
