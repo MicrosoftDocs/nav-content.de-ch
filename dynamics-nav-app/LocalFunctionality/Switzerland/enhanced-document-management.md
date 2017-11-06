@@ -54,5 +54,4 @@ Sie können eine Belegzeile in einem Belegtyp auswählen und die damit in Verbin
 ## <a name="see-also"></a>Siehe auch  
  [Gewusst wie: Rahmenaufträge erstellen](../../sales-how-to-create-blanket-sales-orders.md)   
  [Gewusst wie: Nachverfolgen von Belegzeilen](how-to-track-document-lines.md)   
- [Lokale Funktion (Deutschland)](../Germany/germany-local-functionality.md)
 
