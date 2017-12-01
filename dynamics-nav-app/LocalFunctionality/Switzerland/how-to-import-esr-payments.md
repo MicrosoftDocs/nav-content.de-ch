@@ -3,7 +3,7 @@ title: Importieren von ESR-Zahlungen
 description: "Nach Eingang einer Zahlung eines Debitors erhalten Sie eine Datei mit Informationen zu bezahlten Rechnungen. Sie können diese Datei elektronisch von der Bank oder per E-Mail empfangen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: c69d1f8574a4d890904f2c5ee00983186d070d17
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: fbe3799db9e5c229f1198332bc6a8d7f08211fed
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-import-esr-payments"></a><span data-ttu-id="fc9fa-104">Gewusst wie: Importieren von ESR-Zahlungen</span><span class="sxs-lookup"><span data-stu-id="fc9fa-104">How to: Import ESR Payments</span></span>

@@ -3,7 +3,7 @@ title: Erstellen und Drucken einer Schweizer MWST-Abrechnung
 description: "Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[navnow](../../includes/navnow_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST.-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a16640e014e157d4dbcaabc53d0df2d3e063f8f9
-ms.openlocfilehash: 1670467e54419a2e229a449f6b14e696e16eb536
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: c678a14aac00e8c61857e3577f83a961ea16815a
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-create-and-print-a-swiss-vat-statement"></a><span data-ttu-id="ef3b0-104">Gewusst wie: Erstellen und Drucken einer Schweizer MWST-Abrechnung</span><span class="sxs-lookup"><span data-stu-id="ef3b0-104">How to: Create and Print a Swiss VAT Statement</span></span>

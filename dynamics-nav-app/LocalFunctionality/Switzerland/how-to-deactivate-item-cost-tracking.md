@@ -3,7 +3,7 @@ title: Deaktivieren des Artikelpreistracking
 description: "Wenn ein Artikel im Lager nicht nachverfolgt wird, müssen die Artikelpreise nicht nachverfolgt werden, und es muss kein Lagerposten erstellt werden."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: b9b1f062ee6009f34698ea2cf33bc25bdd5b11e4
-ms.openlocfilehash: 8f5526fd7fc65ebb3b66d98ddffea9eb3f0854d9
+ms.sourcegitcommit: 1dfba8b14019991c95f40ffd5f7fbaed5df414eb
+ms.openlocfilehash: 862a897adfb7bc5e2e4aaf80e54760a558e87a90
 ms.contentlocale: de-ch
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="how-to-deactivate-item-cost-tracking"></a><span data-ttu-id="b29de-103">Gewusst wie: Deaktivieren des Artikelpreistracking</span><span class="sxs-lookup"><span data-stu-id="b29de-103">How to: Deactivate Item Cost Tracking</span></span>
