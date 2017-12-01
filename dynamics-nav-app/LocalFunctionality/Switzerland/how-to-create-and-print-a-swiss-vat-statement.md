@@ -3,7 +3,7 @@ title: Erstellen und Drucken einer Schweizer MWST-Abrechnung
 description: "Auf Grundlage der Informationen, die Sie im Fenster **MWST-Buchungsmatrix Einr.** angegeben haben, kann [!INCLUDE[navnow](../../includes/navnow_md.md)] automatisch eine neue MWST-Abrechnungseinrichtung für die realisierten MWST-Berichte erstellen. Bevor Sie mit den Gewusst wien in diesem Thema fortfahren, stellen Sie sicher, dass Sie die MWST.-Buchungsmatrix mit Werten eingerichtet haben, die für die Verkaufs- und Einkaufsziffernfelder festgelegt wurden."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

@@ -3,7 +3,7 @@ title: Nachverfolgen von Belegzeilen
 description: "Mit der Belegverfolgung können Belege angezeigt werden, die sich auf Verkaufsauftrags- und Bestellzeilen für Aufträge und archivierte Aufträge beziehen. Sie sehen ausserdem eine Übersicht der Belege, die sich auf Auftragszeilen beziehen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

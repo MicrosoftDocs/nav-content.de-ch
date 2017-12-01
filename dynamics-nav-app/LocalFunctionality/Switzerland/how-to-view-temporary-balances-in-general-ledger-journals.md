@@ -3,7 +3,7 @@ title: "Anzeigen temporärer Salden in Finanzbuchhaltungs-Erfassungsjournalen"
 description: "Beim Eingeben einer neuen Transaktion in das Fibu Erf.-Journal können Sie temporäre Salden eingeben, die anzeigen, welche Auswirkungen das Buchen des Erf.-Journals auf die Fibu Erf.-Journal-Kontensalden hätte. Die Saldodetails des Kontos und des Gegenkontos für die aktive Erf.-Journalzeile können angezeigt werden. Die ungebuchten Werte für das aktuelle Erf.-Journal können ebenfalls angezeigt werden."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

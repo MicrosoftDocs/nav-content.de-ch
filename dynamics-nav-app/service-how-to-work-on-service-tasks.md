@@ -3,7 +3,7 @@ title: 'Vorgehensweise: Bearbeiten von Serviceaufgaben'
 description: "Nachdem Sie Serviceaufträge und Offerten angelegt, Serviceartikelzeilen erfasst und den Serviceartikeln im Auftrag oder Offerte Ressourcen zugeordnet haben, können Sie mit der Reparatur und Wartung der Serviceartikel beginnen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

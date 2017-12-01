@@ -3,7 +3,7 @@ title: "Drucken von Testberichten für Lieferbenachrichtigungen"
 description: "Nach dem Erstellen von Lieferbenachrichtigungen und der Durchführung von ggf. erforderlichen Änderungen können Sie entweder Testberichte drucken oder die Lieferbenachrichtigungen ausstellen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

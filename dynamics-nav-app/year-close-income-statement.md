@@ -3,7 +3,7 @@ title: "Schließen Sie Erfolgsrechnung-Konten"
 description: "Am Jahresende beispielsweise müssen Sie die Stapelverarbeitung \"Erfolgsrechnungskonten Nullstellung\" laufen lassen, um dies Buchhaltungsperioden zu schließen, aus der sich das Geschäftsjahr zusammensetzt."
 documentationcenter: 
 author: jswymer
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

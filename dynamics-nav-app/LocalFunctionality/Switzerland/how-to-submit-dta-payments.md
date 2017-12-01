@@ -3,7 +3,7 @@ title: "Gewusst wie: Übermitteln Sie DTA-Zahlungen"
 description: "Um Datenträgeraustausch-Zahlungen (DTA) an Ihre Bank für Zahlung zu buchen, müssen Sie einige Aufgaben ausführen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

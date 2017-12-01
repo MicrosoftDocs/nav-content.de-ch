@@ -3,7 +3,7 @@ title: "MWST-Sätze für die Schweiz"
 description: "Falls sich die MWST-Sätze ändern, müssen Sie das Mehrwertsteuersatz-Änderungstool verwenden. In früheren Versionen von [!INCLUDE[navnow](../../includes/navnow_md.md)] konnten Sie abhängig vom Lieferdatum vorübergehend sowohl die neuen als auch die alten MWST-Sätze für Transaktionen verwenden. Diese Funktion ist veraltet."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

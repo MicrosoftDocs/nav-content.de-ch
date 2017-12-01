@@ -3,7 +3,7 @@ title: Exportieren von Zahlungen mit EZAG
 description: "Sie können eine Datei für elektronische Zahlung mithilfe der EZAG (Elektronischer Zahlungsauftrag)-Methode generieren und sie exportieren, damit sie von der Bank für Zahlungen verwendet werden."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

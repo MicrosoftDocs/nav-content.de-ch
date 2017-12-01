@@ -3,7 +3,7 @@ title: Erfassungen ansehen, bevor Sie einen Beleg oder ein Erf.-Journal buchen
 description: "Sie können prüfen, ob Posten für Belege und Erf.-Journale fehlerfrei sind, bevor sie auf den Fibuposten buchen."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

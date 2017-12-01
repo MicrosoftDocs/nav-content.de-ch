@@ -3,7 +3,7 @@ title: Elektronische Zahlungen mit DTA (Schweiz)
 description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)] können elektronische Zahlungen für Rechnungen mit der elektronischen Zahlungsform \"DatenTrägerAustausch (DTA)\" vorgenommen werden. Schweizer Banken verwenden die elektronische Zahlungsform DTA, um Zahlungen auf effiziente Weise anhand standardisierter Zahlungsdatensätze auszugleichen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

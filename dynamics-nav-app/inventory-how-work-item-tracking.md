@@ -3,7 +3,7 @@ title: "Zuweisen von Serien- und Chargennummern zu Artikeln für das Tracking"
 description: "Sie können Serien-/Chargennummern zu beliebigen ausgehenden oder eingehenden Belegen hinzufügen, und das gebuchte Artikeltracking wird in den entsprechenden Lagerposten angezeigt."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

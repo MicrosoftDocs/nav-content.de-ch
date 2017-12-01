@@ -3,7 +3,7 @@ title: Arbeiten mit Kontenschema
 description: "Beschreibt, wie ein Kontenschema verwendet wird, um unterschiedliche Ansichten und Berichte zum Analysieren von Finanzverhältnisleistungsdaten zu erstellen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

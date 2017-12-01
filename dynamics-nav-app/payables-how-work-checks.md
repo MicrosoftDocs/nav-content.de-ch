@@ -3,7 +3,7 @@ title: Ausgabe, Drucken, Stornieren und Annullieren von Schecks
 description: Beschreibt, wie Schecks mithilfe des Zahlungsausgangs Erfassungsjournals ausgegeben, gedruckt oder annulliert werden oder wie Scheckposten in Dynamics NAV angezeigt werden.
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

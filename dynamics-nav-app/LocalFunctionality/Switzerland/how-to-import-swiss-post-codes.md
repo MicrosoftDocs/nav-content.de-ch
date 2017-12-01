@@ -3,7 +3,7 @@ title: 'Gewusst wie: Importieren von Schweizer Postleitzahlen'
 description: "Sie können die aktuelle PLZ importieren und damit die Tabelle **PLZ** aktualisieren. Die PLZ-Datei kann von der Website der Schweizer Post heruntergeladen werden. Nachdem Sie den letzten PLZ-Code importiert haben, können Sie Postleitzahlen für Debitoren oder Kreditoren festlegen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

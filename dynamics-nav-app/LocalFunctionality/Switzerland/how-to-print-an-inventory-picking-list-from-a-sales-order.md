@@ -3,7 +3,7 @@ title: "Gewusst wie: Drucken einer Lager-Kommissionierliste aus Verkaufsaufträg
 description: Eine Lagerkommissionierliste kann direkt von einem Verkaufsauftrag gedruckt werden.
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

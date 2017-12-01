@@ -3,7 +3,7 @@ title: "Übertragung und Buchung von Kostenzuteilungen"
 description: "Bevor Sie Kostenumlagen definieren, müssen Sie verstehen, woher Kostenposten stammen:"
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

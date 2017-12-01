@@ -3,7 +3,7 @@ title: "Übersicht über das Buchen von Belegen und Erf.-Journals"
 description: "Zeigt Erfungsaktionen und die Art und Weise, wie Sie Belege und Erf.-Journalen buchen können."
 documentationcenter: 
 author: SusanneWindfeldPedersen
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

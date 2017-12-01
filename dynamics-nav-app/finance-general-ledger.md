@@ -3,7 +3,7 @@ title: Erhalten von Informationen zu Fibuposten und COA
 description: Beschreibt den Fibuposten, den Kontenplan und die Kontokategorien.
 documentationcenter: 
 author: edupont04
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

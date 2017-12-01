@@ -3,7 +3,7 @@ title: "Gewusst wie: DTA Zahlungen für Kreditoren vorschlagen"
 description: "Sie können Kreditorenzahlungen mithilfe des Zahlungsausgangs Erf.-Journals vorschlagen und die überfälligen Rechnungen für einzelne Kreditoren an das Erf.-Journal übertragen. Sie können jeden Kreditor für verknüpfte offene Gutschriften oder offene Zahlungen auch überprüfen und erstellen eine Kreditorenliste für die Datenträgeraustausch-Bearbeitung (DTA)."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

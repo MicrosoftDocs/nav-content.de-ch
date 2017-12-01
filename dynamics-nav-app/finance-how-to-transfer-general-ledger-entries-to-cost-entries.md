@@ -3,7 +3,7 @@ title: "Vorgehensweise beim Übertragen von Fibuposten in Kostenposten"
 description: "Sie können Fibuposten in Kostenposten übertragen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

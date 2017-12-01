@@ -3,7 +3,7 @@ title: "Sperren von Lagerartikeln für Verkäufe oder Einkäufe"
 description: "In [!INCLUDE[navnow](../../includes/navnow_md.md)] kann ein Artikel als für Verkäufe, Einkäufe oder alle Verwendungszwecke gesperrt gekennzeichnet werden."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na

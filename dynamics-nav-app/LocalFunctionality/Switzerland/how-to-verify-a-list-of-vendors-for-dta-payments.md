@@ -3,7 +3,7 @@ title: "Überprüfen einer Liste von Kreditoren für DTA-Zahlungen"
 description: "Im Bericht \"DTA Zahlungsjournal\" (DatenTrägerAustausch) werden Informationen zu jeder Zahlungszeile angezeigt. Sie können Bemerkungen in der Bemerkungsspalte anzeigen. Der Bericht enthält die Anzahl von Buchungen, den höchsten Buchungsbetrag und den Totalbetrag in Landes- und Fremdwährungen."
 documentationcenter: 
 author: SorenGP
-ms.prod: dynamics-nav-2017
+ms.prod: dynamics-nav-2018
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
